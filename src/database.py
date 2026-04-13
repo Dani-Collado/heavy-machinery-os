@@ -78,6 +78,11 @@ def get_active_rentals() -> List[Rental]:
         statement = select(Rental).where(Rental.return_date == None)
         return list(session.exec(statement).all())
 
+def get_all_companies() -> List[Company]:
+    with get_session() as session:
+        statement = select(Company)
+        return list(session.exec(statement).all())
+
 def update_machinery_status(vin: str, new_status: str) -> Optional[Machinery]:
     with get_session() as session:
         machine = session.exec(select(Machinery).where(Machinery.vin == vin)).first()
