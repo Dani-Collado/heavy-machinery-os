@@ -62,8 +62,6 @@ class DataCleaner:
                 val = re.sub(r'[^\d,\.-]', '', val)
                 val = val.replace(',', '.')
             fval = float(val)
-            if fval < 0 or fval > 100000:
-                fval = 0.0
             return round(fval, 2)
         except ValueError:
             return 0.0
@@ -145,12 +143,20 @@ class DataCleaner:
                 else:
                     st = "disponible"
                     
+                engine_hours = DataCleaner._clean_numeric(item.engine_hours)
+                if engine_hours < 0 or engine_hours > 500000:
+                    msg = f"Horas de motor irreales: {engine_hours}"
+                    errors.append({"raw": raw, "error": msg})
+                    console.print(Panel(f"[yellow]{msg}[/yellow]\n[white]{raw}", title="Dato interceptado - Maquinaria", style="red"))
+                    progress.advance(task)
+                    continue
+
                 m = {
                     "vin": vin,
                     "model_name": model_name,
                     "brand": brand,
                     "category": cat,
-                    "engine_hours": DataCleaner._clean_numeric(item.engine_hours),
+                    "engine_hours": engine_hours,
                     "status": st,
                     "hourly_rate": DataCleaner._clean_numeric(item.hourly_rate)
                 }
@@ -183,14 +189,22 @@ class DataCleaner:
                     continue
                     
                 ret_date = DataCleaner._parse_date(item.return_date) if item.return_date else None
-                est_hours = int(DataCleaner._clean_numeric(item.estimated_hours)) if item.estimated_hours else None
+                est_hours_val = DataCleaner._clean_numeric(item.estimated_hours) if item.estimated_hours else None
+                if est_hours_val is not None and est_hours_val < 0:
+                    msg = f"Horas estimadas negativas: {est_hours_val}"
+                    errors.append({"raw": raw, "error": msg})
+                    console.print(Panel(f"[yellow]{msg}[/yellow]\n[white]{raw}", title="Dato interceptado - Alquiler", style="red"))
+                    progress.advance(task)
+                    continue
+                    
+                est_hours_int = int(est_hours_val) if est_hours_val is not None else None
                 
                 r = {
                     "vin": DataCleaner._clean_string(item.vin),
                     "cif": DataCleaner._clean_string(item.cif),
                     "rental_date": start_date,
                     "return_date": ret_date,
-                    "estimated_hours": est_hours if est_hours and est_hours > 0 else None
+                    "estimated_hours": est_hours_int if est_hours_int and est_hours_int > 0 else None
                 }
                 cleaned.append(r)
                 progress.advance(task)
