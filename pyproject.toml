@@ -7,6 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "diagrams>=0.25.1",
     "fastapi>=0.135.3",
+    "rich>=15.0.0",
     "sqlmodel>=0.0.38",
     "tabulate>=0.10.0",
     "uvicorn>=0.44.0",

@@ -1,22 +1,11 @@
-import logging
 import re
 from datetime import date, datetime
 from pydantic import BaseModel, ValidationError
+from rich.console import Console
+from rich.panel import Panel
+from rich.progress import Progress
 
-# Colors for logging
-GREEN = "\033[92m"
-YELLOW = "\033[93m"
-RED = "\033[91m"
-BLUE = "\033[94m"
-RESET = "\033[0m"
-
-logger = logging.getLogger("DataCleaner")
-logger.setLevel(logging.INFO)
-if not logger.handlers:
-    handler = logging.StreamHandler()
-    formatter = logging.Formatter('%(message)s')
-    handler.setFormatter(formatter)
-    logger.addHandler(handler)
+console = Console()
 
 # --- Pydantic Models for Validation ---
 
@@ -75,11 +64,9 @@ class DataCleaner:
             return 0.0
         try:
             if isinstance(val, str):
-                # Only keep digits, commas, dots, and minus
                 val = re.sub(r'[^\d,\.-]', '', val)
                 val = val.replace(',', '.')
             fval = float(val)
-            # Remove extremely negative or unreasonably high values
             if fval < 0 or fval > 100000:
                 fval = 0.0
             return round(fval, 2)
@@ -89,107 +76,129 @@ class DataCleaner:
     @staticmethod
     def process_companies(raw_list: list) -> list[dict]:
         cleaned = []
-        for raw in raw_list:
-            try:
-                item = IncomingCompany(**raw)
-            except ValidationError as e:
-                logger.error(f"{RED}[ERROR] Empresa rechazada - {e.errors()[0]['msg']} | {raw}{RESET}")
-                continue
-            
-            cif = DataCleaner._clean_string(item.cif)
-            name = " ".join(item.name.split()).title()
-            
-            c = {
-                "cif": cif,
-                "name": name,
-                "location": " ".join(item.location.split()).title() if item.location else None,
-                "industry": " ".join(item.industry.split()).title() if item.industry else None,
-            }
-            cleaned.append(c)
-            logger.info(f"{GREEN}[CLEANED] Empresa procesada: {c['name']} (CIF: {cif}){RESET}")
-            
+        with Progress() as progress:
+            task = progress.add_task("[yellow]Limpiando Empresas...", total=len(raw_list))
+            for raw in raw_list:
+                try:
+                    item = IncomingCompany(**raw)
+                except ValidationError as e:
+                    console.print(Panel(
+                        f"[yellow]Fallo validación:[/yellow] {e.errors()[0]['msg']}\n[white]{raw}", 
+                        title="Dato interceptado - Empresa", style="red"
+                    ))
+                    progress.advance(task)
+                    continue
+                
+                cif = DataCleaner._clean_string(item.cif)
+                name = " ".join(item.name.split()).title()
+                
+                c = {
+                    "cif": cif,
+                    "name": name,
+                    "location": " ".join(item.location.split()).title() if item.location else None,
+                    "industry": " ".join(item.industry.split()).title() if item.industry else None,
+                }
+                cleaned.append(c)
+                progress.advance(task)
         return cleaned
 
     @staticmethod
     def process_machinery(raw_list: list) -> list[dict]:
         cleaned = []
-        for raw in raw_list:
-            try:
-                item = IncomingMachinery(**raw)
-            except ValidationError as e:
-                logger.error(f"{RED}[ERROR] Maquinaria rechazada - Dato crítico inválido | {raw} -> {e.errors()}{RESET}")
-                continue
-            
-            vin = DataCleaner._clean_string(item.vin)
-            model_name = DataCleaner._clean_string(item.model_name)
-            if not vin or not model_name: # Final safety check
-                logger.error(f"{RED}[ERROR] Maquinaria sin VIN/Modelo funcional.{RESET}")
-                continue
+        with Progress() as progress:
+            task = progress.add_task("[blue]Limpiando Maquinaria...", total=len(raw_list))
+            for raw in raw_list:
+                try:
+                    item = IncomingMachinery(**raw)
+                except ValidationError as e:
+                    console.print(Panel(
+                        f"[yellow]Dato crítico inválido:[/yellow]\n[white]{raw}\n[red]{e.errors()}", 
+                        title="Dato interceptado - Maquinaria", style="red"
+                    ))
+                    progress.advance(task)
+                    continue
                 
-            # Category inference by keywords
-            cat = item.category
-            if not cat:
-                if any(x in model_name for x in ["3CX", "4CX", "JS"]):
-                    cat = "Excavadora"
-                elif any(x in model_name for x in ["531", "540"]):
-                    cat = "Telescópica"
-                elif "409" in model_name:
-                    cat = "Cargadora"
-                elif "VMT" in model_name:
-                    cat = "Compactación"
-            if cat:
-                cat = " ".join(cat.split()).title()
+                vin = DataCleaner._clean_string(item.vin)
+                model_name = DataCleaner._clean_string(item.model_name)
+                if not vin or not model_name:
+                    console.print(Panel(
+                        f"[yellow]Falta VIN o Modelo:[/yellow]\n[white]{raw}", 
+                        title="Dato interceptado - Maquinaria", style="red"
+                    ))
+                    progress.advance(task)
+                    continue
+                    
+                cat = item.category
+                if not cat:
+                    if any(x in model_name for x in ["3CX", "4CX", "JS"]):
+                        cat = "Excavadora"
+                    elif any(x in model_name for x in ["531", "540"]):
+                        cat = "Telescópica"
+                    elif "409" in model_name:
+                        cat = "Cargadora"
+                    elif "VMT" in model_name:
+                        cat = "Compactación"
+                if cat:
+                    cat = " ".join(cat.split()).title()
+                    
+                brand = " ".join(item.brand.split()).upper() if item.brand else "JCB"
                 
-            brand = " ".join(item.brand.split()).upper() if item.brand else "JCB"
-            
-            s = item.status.strip().lower() if item.status else ""
-            if "taller" in s or "repair" in s or "roto" in s:
-                st = "taller"
-            elif "alqu" in s:
-                st = "alquilado"
-            else:
-                st = "disponible"
-                
-            m = {
-                "vin": vin,
-                "model_name": model_name,
-                "brand": brand,
-                "category": cat,
-                "engine_hours": DataCleaner._clean_numeric(item.engine_hours),
-                "status": st,
-                "hourly_rate": DataCleaner._clean_numeric(item.hourly_rate)
-            }
-            cleaned.append(m)
-            logger.info(f"{BLUE}[CLEANED] Maquinaria procesada: VIN {vin} | {brand} {model_name} | {cat}{RESET}")
-            
+                s = item.status.strip().lower() if item.status else ""
+                if "taller" in s or "repair" in s or "roto" in s:
+                    st = "taller"
+                elif "alqu" in s:
+                    st = "alquilado"
+                else:
+                    st = "disponible"
+                    
+                m = {
+                    "vin": vin,
+                    "model_name": model_name,
+                    "brand": brand,
+                    "category": cat,
+                    "engine_hours": DataCleaner._clean_numeric(item.engine_hours),
+                    "status": st,
+                    "hourly_rate": DataCleaner._clean_numeric(item.hourly_rate)
+                }
+                cleaned.append(m)
+                progress.advance(task)
         return cleaned
 
     @staticmethod
     def process_rentals(raw_list: list) -> list[dict]:
         cleaned = []
-        for raw in raw_list:
-            try:
-                item = IncomingRental(**raw)
-            except ValidationError as e:
-                logger.error(f"{YELLOW}[SKIPPED] Alquiler omitido (Formato JSON) | {raw}{RESET}")
-                continue
+        with Progress() as progress:
+            task = progress.add_task("[green]Limpiando Alquileres...", total=len(raw_list))
+            for raw in raw_list:
+                try:
+                    item = IncomingRental(**raw)
+                except ValidationError as e:
+                    console.print(Panel(
+                        f"[yellow]Estructura inválida:[/yellow] {e.errors()[0]['msg']}\n[white]{raw}", 
+                        title="Dato interceptado - Alquiler", style="red"
+                    ))
+                    progress.advance(task)
+                    continue
+                    
+                start_date = DataCleaner._parse_date(item.rental_date)
+                if not start_date:
+                    console.print(Panel(
+                        f"[yellow]Fecha inicio inválida:[/yellow] {item.rental_date}\n[white]{raw}", 
+                        title="Dato interceptado - Alquiler", style="red"
+                    ))
+                    progress.advance(task)
+                    continue
+                    
+                ret_date = DataCleaner._parse_date(item.return_date) if item.return_date else None
+                est_hours = int(DataCleaner._clean_numeric(item.estimated_hours)) if item.estimated_hours else None
                 
-            start_date = DataCleaner._parse_date(item.rental_date)
-            if not start_date:
-                logger.error(f"{YELLOW}[SKIPPED] Alquiler omitido - Fecha inicio inválida | {raw}{RESET}")
-                continue
-                
-            ret_date = DataCleaner._parse_date(item.return_date) if item.return_date else None
-            est_hours = int(DataCleaner._clean_numeric(item.estimated_hours)) if item.estimated_hours else None
-            
-            r = {
-                "vin": DataCleaner._clean_string(item.vin),
-                "cif": DataCleaner._clean_string(item.cif),
-                "rental_date": start_date,
-                "return_date": ret_date,
-                "estimated_hours": est_hours if est_hours and est_hours > 0 else None
-            }
-            cleaned.append(r)
-            # Log successful clean but silent as there are hundreds (or optionally verbose)
-        logger.info(f"{GREEN}[CLEANED] Alquileres normalizados en memoria listos para relacionar.{RESET}")
+                r = {
+                    "vin": DataCleaner._clean_string(item.vin),
+                    "cif": DataCleaner._clean_string(item.cif),
+                    "rental_date": start_date,
+                    "return_date": ret_date,
+                    "estimated_hours": est_hours if est_hours and est_hours > 0 else None
+                }
+                cleaned.append(r)
+                progress.advance(task)
         return cleaned
