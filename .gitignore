@@ -8,3 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Scripts
+scripts/generate_raw_data.py

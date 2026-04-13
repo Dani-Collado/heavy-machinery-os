@@ -1,0 +1,3578 @@
+{
+  "companies": [
+    {
+      "cif": "B00000001",
+      "name": "Excavaciones Norte S.A.",
+      "location": "Valladolid",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000002",
+      "name": "Ingeniería García y Asociados",
+      "location": "Valencia",
+      "industry": "Obra Civil"
+    },
+    {
+      "cif": "B00000003",
+      "name": "Movimientos de Tierra Ibérea S.L.",
+      "location": "Sevilla",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000004",
+      "name": "Obras García S.A.",
+      "location": "Murcia",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000005",
+      "name": "Ingeniería Levante S.A.",
+      "location": "Barcelona",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000006",
+      "name": "Construcciones Levante Hnos.",
+      "location": "Murcia",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000007",
+      "name": "Obras García y Asociados",
+      "location": "Barcelona"
+    },
+    {
+      "cif": "B00000008",
+      "name": "Movimientos de Tierra Ibérea S.L.",
+      "location": "Sevilla",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000009",
+      "name": "Excavaciones Central SL",
+      "location": "Alicante",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000010",
+      "name": "Excavaciones Martínez S.L.",
+      "location": "Madrid",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000011",
+      "name": "Obras García Hnos.",
+      "location": "Alicante",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000012",
+      "name": "Alquileres Sur SA",
+      "location": "Madrid",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000013",
+      "name": "Alquileres Martínez SA",
+      "location": "Zaragoza"
+    },
+    {
+      "cif": "B00000014",
+      "name": "Ingeniería Norte y Asociados",
+      "location": "Málaga",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000015",
+      "name": "Construcciones López SA",
+      "location": "Murcia",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000016",
+      "name": "Obras Ibérea SA",
+      "location": "Barcelona",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000017",
+      "name": "Alquileres López S.L.",
+      "location": "Alicante",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000018",
+      "name": "Obras Norte y Asociados",
+      "location": "Zaragoza",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000019",
+      "name": "Ingeniería Norte y Asociados",
+      "location": "Málaga"
+    },
+    {
+      "cif": "B00000020",
+      "name": "Obras Central y Asociados",
+      "location": "Murcia",
+      "industry": "Obra Civil"
+    },
+    {
+      "cif": "B00000021",
+      "name": "Excavaciones Martínez y Asociados",
+      "location": "Bilbao",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000022",
+      "name": "Obras Martínez S.L.",
+      "location": "Valladolid",
+      "industry": "Obra Civil"
+    },
+    {
+      "cif": "B00000023",
+      "name": "Movimientos de Tierra López y Asociados",
+      "location": "Madrid",
+      "industry": "Obra Civil"
+    },
+    {
+      "cif": "B00000024",
+      "name": "Excavaciones Central y Asociados",
+      "location": "Bilbao",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000025",
+      "name": "Ingeniería Levante SL",
+      "location": "Valencia",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000026",
+      "name": "Alquileres Sur y Asociados",
+      "location": "Zaragoza",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000027",
+      "name": "Alquileres Central SL",
+      "location": "Valencia",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000028",
+      "name": "Excavaciones García S.L.",
+      "location": "Alicante",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000029",
+      "name": "Ingeniería Norte Hnos.",
+      "location": "Barcelona",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000030",
+      "name": "Obras García Hnos.",
+      "location": "Sevilla"
+    },
+    {
+      "cif": "B00000031",
+      "name": "Ingeniería Ibérea S.A.",
+      "location": "Bilbao",
+      "industry": "Obra Civil"
+    },
+    {
+      "cif": "B00000032",
+      "name": "Excavaciones Martínez S.A.",
+      "location": "Sevilla",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000033",
+      "name": "Ingeniería Norte SL",
+      "location": "Madrid"
+    },
+    {
+      "cif": "B00000034",
+      "name": "Excavaciones Martínez Hnos.",
+      "location": "Murcia",
+      "industry": "Obra Civil"
+    },
+    {
+      "cif": "B00000035",
+      "name": "Ingeniería Norte S.A.",
+      "location": "Murcia",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000036",
+      "name": "Ingeniería Sur SA",
+      "location": "Bilbao",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000037",
+      "name": "Excavaciones García SA",
+      "location": "Alicante",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000038",
+      "name": "Construcciones Norte Hnos.",
+      "location": "Murcia"
+    },
+    {
+      "cif": "B00000039",
+      "name": "Alquileres Sur SL",
+      "location": "Valencia",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000040",
+      "name": "Movimientos de Tierra Ibérea Hnos.",
+      "location": "Zaragoza",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000041",
+      "name": "Excavaciones Levante y Asociados",
+      "location": "Sevilla",
+      "industry": "Obra Civil"
+    },
+    {
+      "cif": "B00000042",
+      "name": "Ingeniería Norte SA",
+      "location": "Málaga",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000043",
+      "name": "Ingeniería Martínez SL",
+      "location": "Sevilla",
+      "industry": "Obra Civil"
+    },
+    {
+      "cif": "B00000044",
+      "name": "Ingeniería Levante SL",
+      "location": "Sevilla",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000045",
+      "name": "Movimientos de Tierra Levante y Asociados",
+      "location": "Valencia",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000046",
+      "name": "Ingeniería Martínez Hnos.",
+      "location": "Alicante",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000047",
+      "name": "Excavaciones García Hnos.",
+      "location": "Alicante",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000048",
+      "name": "Alquileres Sur SL",
+      "location": "Alicante",
+      "industry": "Obra Civil"
+    },
+    {
+      "cif": "B00000049",
+      "name": "Movimientos de Tierra Norte y Asociados",
+      "location": "Málaga"
+    },
+    {
+      "cif": "B00000050",
+      "name": "Excavaciones Levante S.L.",
+      "location": "Barcelona",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000051",
+      "name": "Excavaciones Martínez y Asociados",
+      "location": "Barcelona",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000052",
+      "name": "Construcciones Martínez S.A.",
+      "location": "Murcia"
+    },
+    {
+      "cif": "B00000053",
+      "name": "Obras Ibérea SL",
+      "location": "Madrid",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000054",
+      "name": "Excavaciones Ibérea S.L.",
+      "location": "Bilbao"
+    },
+    {
+      "cif": "B00000055",
+      "name": "Ingeniería Central S.L.",
+      "location": "Valencia",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000056",
+      "name": "Movimientos de Tierra Central Hnos.",
+      "location": "Málaga",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000057",
+      "name": "Obras Central SA",
+      "location": "Zaragoza",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000058",
+      "name": "Excavaciones García SL",
+      "location": "Zaragoza"
+    },
+    {
+      "cif": "B00000059",
+      "name": "Ingeniería Sur SL",
+      "location": "Valencia",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000060",
+      "name": "Excavaciones Sur y Asociados",
+      "location": "Murcia",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000061",
+      "name": "Movimientos de Tierra Sur S.A.",
+      "location": "Bilbao",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000062",
+      "name": "Alquileres Ibérea S.L.",
+      "location": "Murcia",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000063",
+      "name": "Excavaciones Norte Hnos.",
+      "location": "Bilbao",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000064",
+      "name": "Construcciones López SA",
+      "location": "Alicante"
+    },
+    {
+      "cif": "B00000065",
+      "name": "Excavaciones Sur SL",
+      "location": "Barcelona",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000066",
+      "name": "Construcciones López S.L.",
+      "location": "Murcia",
+      "industry": "Obra Civil"
+    },
+    {
+      "cif": "B00000067",
+      "name": "Ingeniería Norte SA",
+      "location": "Alicante",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000068",
+      "name": "Alquileres Ibérea y Asociados",
+      "location": "Madrid",
+      "industry": "Obra Civil"
+    },
+    {
+      "cif": "B00000069",
+      "name": "Ingeniería Sur S.A.",
+      "location": "Zaragoza",
+      "industry": "Obra Civil"
+    },
+    {
+      "cif": "B00000070",
+      "name": "Excavaciones Ibérea S.L.",
+      "location": "Sevilla",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000071",
+      "name": "Construcciones Ibérea y Asociados",
+      "location": "Barcelona",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000072",
+      "name": "Obras Norte SA",
+      "location": "Valencia",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000073",
+      "name": "Ingeniería Levante SA",
+      "location": "Málaga",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000074",
+      "name": "Ingeniería Levante S.L.",
+      "location": "Barcelona"
+    },
+    {
+      "cif": "B00000075",
+      "name": "Obras Martínez S.A.",
+      "location": "Valladolid",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000076",
+      "name": "Ingeniería López S.A.",
+      "location": "Zaragoza"
+    },
+    {
+      "cif": "B00000077",
+      "name": "Obras Norte SA",
+      "location": "Valladolid"
+    },
+    {
+      "cif": "B00000078",
+      "name": "Construcciones Central SL",
+      "location": "Alicante",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000079",
+      "name": "Excavaciones Central S.A.",
+      "location": "Málaga",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000080",
+      "name": "Ingeniería Levante Hnos.",
+      "location": "Murcia",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000081",
+      "name": "Alquileres Levante y Asociados",
+      "location": "Sevilla",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000082",
+      "name": "Construcciones García S.A.",
+      "location": "Alicante",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000083",
+      "name": "Ingeniería Levante S.A.",
+      "location": "Madrid"
+    },
+    {
+      "cif": "B00000084",
+      "name": "Excavaciones Ibérea SA",
+      "location": "Sevilla",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000085",
+      "name": "Excavaciones Levante S.L.",
+      "location": "Valencia",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000086",
+      "name": "Alquileres Ibérea SA",
+      "location": "Madrid",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000087",
+      "name": "Movimientos de Tierra Levante S.A.",
+      "location": "Murcia",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000088",
+      "name": "Construcciones Sur SL",
+      "location": "Barcelona",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000089",
+      "name": "Alquileres Martínez Hnos.",
+      "location": "Valladolid",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000090",
+      "name": "Ingeniería Norte SL",
+      "location": "Zaragoza"
+    },
+    {
+      "cif": "B00000091",
+      "name": "Obras Levante Hnos.",
+      "location": "Valladolid"
+    },
+    {
+      "cif": "B00000092",
+      "name": "Obras Ibérea y Asociados",
+      "location": "Barcelona",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000093",
+      "name": "Ingeniería Norte Hnos.",
+      "location": "Madrid",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000094",
+      "name": "Excavaciones Levante Hnos.",
+      "location": "Valladolid"
+    },
+    {
+      "cif": "B00000095",
+      "name": "Ingeniería Levante y Asociados",
+      "location": "Barcelona"
+    },
+    {
+      "cif": "B00000096",
+      "name": "Ingeniería Ibérea S.A.",
+      "location": "Sevilla",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000097",
+      "name": "Ingeniería Levante SA",
+      "location": "Zaragoza",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000098",
+      "name": "Ingeniería Central SL",
+      "location": "Madrid",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000099",
+      "name": "Alquileres Ibérea S.L.",
+      "location": "Valencia",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000100",
+      "name": "Ingeniería López y Asociados",
+      "location": "Sevilla",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000101",
+      "name": "Ingeniería Central S.A.",
+      "location": "Alicante",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000102",
+      "name": "Alquileres López Hnos.",
+      "location": "Murcia",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000103",
+      "name": "Alquileres López S.L.",
+      "location": "Sevilla"
+    },
+    {
+      "cif": "B00000104",
+      "name": "Excavaciones López Hnos.",
+      "location": "Sevilla",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000105",
+      "name": "Obras García Hnos.",
+      "location": "Valladolid",
+      "industry": "Obra Civil"
+    },
+    {
+      "cif": "B00000106",
+      "name": "Obras García S.L.",
+      "location": "Madrid",
+      "industry": "Obra Civil"
+    },
+    {
+      "cif": "B00000107",
+      "name": "Obras Ibérea SA",
+      "location": "Bilbao",
+      "industry": "Obra Civil"
+    },
+    {
+      "cif": "B00000108",
+      "name": "Alquileres Central y Asociados",
+      "location": "Zaragoza",
+      "industry": "Obra Civil"
+    },
+    {
+      "cif": "B00000109",
+      "name": "Ingeniería Sur Hnos.",
+      "location": "Madrid",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000110",
+      "name": "Excavaciones Central SL",
+      "location": "Alicante",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000111",
+      "name": "Construcciones Sur SA",
+      "location": "Madrid",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000112",
+      "name": "Excavaciones Central SA",
+      "location": "Bilbao",
+      "industry": "Obra Civil"
+    },
+    {
+      "cif": "B00000113",
+      "name": "Movimientos de Tierra García S.A.",
+      "location": "Alicante",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000114",
+      "name": "Alquileres Sur S.A.",
+      "location": "Murcia",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000115",
+      "name": "Movimientos de Tierra Sur Hnos.",
+      "location": "Valencia",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000116",
+      "name": "Movimientos de Tierra Norte S.A.",
+      "location": "Alicante",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000117",
+      "name": "Alquileres Central SL",
+      "location": "Madrid",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000118",
+      "name": "Movimientos de Tierra Central S.A.",
+      "location": "Valencia",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000119",
+      "name": "Excavaciones López y Asociados",
+      "location": "Valladolid",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000120",
+      "name": "Alquileres Central y Asociados",
+      "location": "Valladolid"
+    },
+    {
+      "cif": "B00000121",
+      "name": "Excavaciones López SA",
+      "location": "Málaga",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000122",
+      "name": "Construcciones García S.L.",
+      "location": "Zaragoza",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000123",
+      "name": "Ingeniería Levante S.A.",
+      "location": "Alicante",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000124",
+      "name": "Alquileres Central SA",
+      "location": "Málaga",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000125",
+      "name": "Obras Central SA",
+      "location": "Sevilla",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000126",
+      "name": "Obras Levante SL",
+      "location": "Málaga",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000127",
+      "name": "Movimientos de Tierra López Hnos.",
+      "location": "Murcia",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000128",
+      "name": "Excavaciones Sur Hnos.",
+      "location": "Madrid",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000129",
+      "name": "Ingeniería Sur S.A.",
+      "location": "Málaga",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000130",
+      "name": "Construcciones Central Hnos.",
+      "location": "Alicante",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000131",
+      "name": "Excavaciones Central SA",
+      "location": "Zaragoza",
+      "industry": "Obra Civil"
+    },
+    {
+      "cif": "B00000132",
+      "name": "Movimientos de Tierra Norte S.L.",
+      "location": "Murcia"
+    },
+    {
+      "cif": "B00000133",
+      "name": "Movimientos de Tierra Levante S.L.",
+      "location": "Madrid",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000134",
+      "name": "Ingeniería López SL",
+      "location": "Murcia",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000135",
+      "name": "Movimientos de Tierra García S.A.",
+      "location": "Zaragoza",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000136",
+      "name": "Movimientos de Tierra Central SA",
+      "location": "Valencia",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000137",
+      "name": "Movimientos de Tierra Norte SL",
+      "location": "Valladolid",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000138",
+      "name": "Obras López SL",
+      "location": "Zaragoza",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000139",
+      "name": "Excavaciones Norte y Asociados",
+      "location": "Sevilla",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000140",
+      "name": "Obras García S.L.",
+      "location": "Zaragoza",
+      "industry": "Obra Civil"
+    },
+    {
+      "cif": "B00000141",
+      "name": "Obras Martínez SA",
+      "location": "Murcia",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000142",
+      "name": "Excavaciones Martínez S.L.",
+      "location": "Bilbao",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000143",
+      "name": "Excavaciones Sur S.L.",
+      "location": "Málaga",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000144",
+      "name": "Obras Ibérea SA",
+      "location": "Valencia",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000145",
+      "name": "Construcciones López Hnos.",
+      "location": "Alicante",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000146",
+      "name": "Alquileres Martínez SL",
+      "location": "Valladolid",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000147",
+      "name": "Excavaciones Central SL",
+      "location": "Alicante",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000148",
+      "name": "Obras Central SA",
+      "location": "Sevilla",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000149",
+      "name": "Movimientos de Tierra Martínez SL",
+      "location": "Sevilla",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000150",
+      "name": "Movimientos de Tierra Sur S.L.",
+      "location": "Madrid",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000048",
+      "name": "Construcciones Ibérea S.L.",
+      "location": "Sevilla",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000006",
+      "name": "Construcciones Norte S.A.",
+      "location": "Zaragoza",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000020",
+      "name": "Obras López S.A.",
+      "location": "Sevilla",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000022",
+      "name": "Movimientos de Tierra López y Asociados",
+      "location": "Murcia",
+      "industry": "Obra Civil"
+    },
+    {
+      "cif": "B00000009",
+      "name": "Obras García SL",
+      "location": "Barcelona"
+    },
+    {
+      "cif": "B00000048",
+      "name": "Ingeniería Sur S.A.",
+      "location": "Zaragoza",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000039",
+      "name": "Ingeniería Central S.L.",
+      "location": "Valencia",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000008",
+      "name": "Obras Sur Hnos.",
+      "location": "Madrid",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000024",
+      "name": "Ingeniería García SA",
+      "location": "Sevilla",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000018",
+      "name": "Obras López S.L.",
+      "location": "Madrid",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000007",
+      "name": "Movimientos de Tierra Central Hnos.",
+      "location": "Málaga"
+    },
+    {
+      "cif": "B00000034",
+      "name": "Movimientos de Tierra García SL",
+      "location": "Bilbao",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000016",
+      "name": "Construcciones López Hnos.",
+      "location": "Bilbao"
+    },
+    {
+      "cif": "B00000009",
+      "name": "Movimientos de Tierra Sur SA",
+      "location": "Barcelona",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000023",
+      "name": "Obras López S.A.",
+      "location": "Bilbao",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000035",
+      "name": "Ingeniería García S.A.",
+      "location": "Málaga",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000049",
+      "name": "Ingeniería Central SL",
+      "location": "Barcelona",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000049",
+      "name": "Ingeniería Central S.L.",
+      "location": "Alicante",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000042",
+      "name": "Excavaciones Norte y Asociados",
+      "location": "Murcia",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000040",
+      "name": "Ingeniería García S.L.",
+      "location": "Bilbao",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000045",
+      "name": "Ingeniería Ibérea S.A.",
+      "location": "Zaragoza",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000006",
+      "name": "Construcciones Ibérea SA",
+      "location": "Sevilla",
+      "industry": "Logística"
+    },
+    {
+      "cif": "B00000037",
+      "name": "Ingeniería Levante S.A.",
+      "location": "Zaragoza"
+    },
+    {
+      "cif": "B00000024",
+      "name": "Obras Sur y Asociados",
+      "location": "Sevilla"
+    },
+    {
+      "cif": "B00000008",
+      "name": "Construcciones Sur y Asociados",
+      "location": "Sevilla",
+      "industry": "Agricultura"
+    },
+    {
+      "cif": "B00000017",
+      "name": "Ingeniería García S.L.",
+      "location": "Zaragoza"
+    },
+    {
+      "cif": "B00000030",
+      "name": "Ingeniería Levante SL",
+      "location": "Murcia",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000049",
+      "name": "Construcciones Martínez S.A.",
+      "location": "Zaragoza",
+      "industry": "Minería"
+    },
+    {
+      "cif": "B00000003",
+      "name": "Construcciones Sur SA",
+      "location": "Zaragoza",
+      "industry": "Construcción"
+    },
+    {
+      "cif": "B00000027",
+      "name": "Alquileres López y Asociados",
+      "location": "Madrid",
+      "industry": "Minería"
+    }
+  ],
+  "machinery": [
+    {
+      "vin": "JCB00000001X",
+      "model_name": "  3cx ",
+      "category": "Cargadora",
+      "engine_hours": 3590.4295288762346,
+      "status": "taller"
+    },
+    {
+      "vin": "JCB00000002X",
+      "model_name": "3CX",
+      "brand": "JCB",
+      "category": "Excavadora",
+      "engine_hours": 6156.423742507471,
+      "status": "alquilado",
+      "hourly_rate": -10.0
+    },
+    {
+      "vin": "JCB00000003X",
+      "model_name": "JS220",
+      "brand": "JCB",
+      "category": "Cargadora",
+      "engine_hours": 8785.414196151538,
+      "status": "taller",
+      "hourly_rate": 25.5
+    },
+    {
+      "vin": "JCB00000004X",
+      "model_name": "409  ",
+      "brand": "JCB",
+      "category": "Compactación",
+      "engine_hours": 14432.246090255618,
+      "status": "alquilado"
+    },
+    {
+      "vin": "JCB00000005X",
+      "model_name": "19C-1",
+      "brand": "  JCB",
+      "category": "Excavadora",
+      "engine_hours": "1321 hrs",
+      "status": "ROTO!!"
+    },
+    {
+      "vin": "JCB00000006X",
+      "model_name": "  540-140 ",
+      "category": "Excavadora",
+      "engine_hours": 8447.822165549434,
+      "status": "ROTO!!",
+      "hourly_rate": "50.5 EUR"
+    },
+    {
+      "vin": "JCB00000007X",
+      "model_name": "  3cx ",
+      "category": "Compactación",
+      "engine_hours": "1081,23",
+      "status": "ROTO!!",
+      "hourly_rate": 30.0
+    },
+    {
+      "vin": "JCB00000008X",
+      "model_name": "Teletruk 30D",
+      "category": "Excavadora",
+      "engine_hours": -52.91145491163779,
+      "status": "disponible",
+      "hourly_rate": 45
+    },
+    {
+      "vin": "JCB00000009X",
+      "model_name": "409",
+      "brand": "JCB",
+      "category": "Excavadora",
+      "engine_hours": "784 hrs",
+      "status": "repair",
+      "hourly_rate": "50.5 EUR"
+    },
+    {
+      "vin": "JCB00000010X",
+      "model_name": "409",
+      "category": "Cargadora",
+      "engine_hours": 6145.905976861797,
+      "status": "repair",
+      "hourly_rate": "50.5 EUR"
+    },
+    {
+      "vin": "JCB00000011X",
+      "model_name": "vmt260",
+      "brand": "JCB",
+      "category": "Compactación",
+      "engine_hours": 14313.80757801528,
+      "status": "DISPONIBLE",
+      "hourly_rate": "50.5 EUR"
+    },
+    {
+      "vin": "JCB00000012X",
+      "model_name": "  531-70 ",
+      "engine_hours": -40.09433766280808,
+      "status": "DISPONIBLE",
+      "hourly_rate": -10.0
+    },
+    {
+      "vin": "JCB00000013X",
+      "model_name": "4CX  ",
+      "category": "Excavadora",
+      "engine_hours": 11648.051958652783,
+      "status": "disponible"
+    },
+    {
+      "vin": "JCB00000014X",
+      "model_name": "4CX",
+      "brand": "jcb",
+      "engine_hours": 11159.764652483045,
+      "status": "ROTO!!"
+    },
+    {
+      "vin": "JCB00000015X",
+      "model_name": "Teletruk 30D",
+      "category": "Cargadora",
+      "engine_hours": 1815.54151271961,
+      "status": "DISPONIBLE",
+      "hourly_rate": 45
+    },
+    {
+      "vin": "JCB00000016X",
+      "model_name": "409",
+      "brand": "JCB",
+      "engine_hours": 3709.162035214775,
+      "status": "taller",
+      "hourly_rate": -10.0
+    },
+    {
+      "vin": "JCB00000017X",
+      "model_name": "  409 ",
+      "brand": "jcb",
+      "category": "Excavadora",
+      "engine_hours": "514 hrs",
+      "status": "ROTO!!"
+    },
+    {
+      "vin": "JCB00000018X",
+      "model_name": "4CX",
+      "brand": "JCB",
+      "category": "Cargadora",
+      "engine_hours": 7331.035252183088,
+      "status": "disponible"
+    },
+    {
+      "vin": "JCB00000019X",
+      "model_name": "3cx",
+      "brand": "jcb",
+      "category": "Excavadora",
+      "engine_hours": 7465.935402479593,
+      "status": "  TALLer "
+    },
+    {
+      "vin": "JCB00000020X",
+      "model_name": "Teletruk 30D",
+      "category": "Compactación",
+      "engine_hours": 7451.919645029273,
+      "status": "  TALLer "
+    },
+    {
+      "vin": "JCB00000021X",
+      "model_name": "js220",
+      "brand": "JCB",
+      "category": "Cargadora",
+      "engine_hours": 3729.7988134466655,
+      "status": "disponible"
+    },
+    {
+      "vin": "JCB00000022X",
+      "model_name": "4CX",
+      "brand": "JCB",
+      "category": "Excavadora",
+      "engine_hours": 384.7250053836709,
+      "status": "repair"
+    },
+    {
+      "vin": "JCB00000023X",
+      "model_name": "Teletruk 30D  ",
+      "brand": "jcb",
+      "category": "Compactación",
+      "engine_hours": 79.39587136102988,
+      "status": "DISPONIBLE",
+      "hourly_rate": "50.5 EUR"
+    },
+    {
+      "vin": "JCB00000024X",
+      "model_name": "Teletruk 30D",
+      "category": "Excavadora",
+      "engine_hours": 264.833013551114,
+      "status": "DISPONIBLE"
+    },
+    {
+      "vin": "JCB00000025X",
+      "model_name": "540-140",
+      "brand": "jcb",
+      "category": "Excavadora",
+      "engine_hours": 6510.273804547777,
+      "status": "ROTO!!",
+      "hourly_rate": -10.0
+    },
+    {
+      "vin": "JCB00000026X",
+      "model_name": "19c-1",
+      "category": "Cargadora",
+      "engine_hours": "2509,13",
+      "status": "taller"
+    },
+    {
+      "vin": "JCB00000027X",
+      "model_name": "409",
+      "brand": "JcB",
+      "category": "Telescópica",
+      "engine_hours": 4124.800925414524,
+      "status": "taller"
+    },
+    {
+      "vin": "JCB00000028X",
+      "model_name": "19C-1  ",
+      "brand": "jcb",
+      "category": "Cargadora",
+      "engine_hours": 7059.599047730482,
+      "status": "ROTO!!",
+      "hourly_rate": 25.5
+    },
+    {
+      "vin": "JCB00000029X",
+      "model_name": "  19c-1 ",
+      "brand": "  JCB",
+      "category": "Excavadora",
+      "engine_hours": 14520.720523309737,
+      "status": "taller"
+    },
+    {
+      "vin": "JCB00000030X",
+      "model_name": "3CX",
+      "brand": "jcb",
+      "category": "Excavadora",
+      "engine_hours": 5265.180940099899,
+      "status": "repair"
+    },
+    {
+      "vin": "JCB00000031X",
+      "model_name": "JS220  ",
+      "category": "Cargadora",
+      "engine_hours": 675682.9605254717,
+      "status": "alquilado"
+    },
+    {
+      "vin": "JCB00000032X",
+      "model_name": "409",
+      "brand": "JcB",
+      "category": "Telescópica",
+      "engine_hours": "623 hrs",
+      "status": "disponible",
+      "hourly_rate": "50.5 EUR"
+    },
+    {
+      "vin": "JCB00000033X",
+      "model_name": "4CX  ",
+      "brand": "jcb",
+      "category": "Excavadora",
+      "engine_hours": 3547.971881711618,
+      "status": "disponible",
+      "hourly_rate": 25.5
+    },
+    {
+      "vin": "JCB00000034X",
+      "model_name": "540-140",
+      "category": "Telescópica",
+      "engine_hours": 13292.545690151679,
+      "status": "DISPONIBLE"
+    },
+    {
+      "vin": "JCB00000035X",
+      "model_name": "  409 ",
+      "brand": "jcb",
+      "category": "Telescópica",
+      "engine_hours": 8258.741979864744,
+      "status": "alquilado"
+    },
+    {
+      "vin": "JCB00000036X",
+      "model_name": "Teletruk 30D  ",
+      "brand": "  JCB",
+      "category": "Excavadora",
+      "engine_hours": 13155.50694555682,
+      "status": "taller",
+      "hourly_rate": 30.0
+    },
+    {
+      "vin": "JCB00000037X",
+      "model_name": "3CX  ",
+      "brand": "JcB",
+      "category": "Compactación",
+      "engine_hours": "1238 hrs",
+      "status": "taller"
+    },
+    {
+      "vin": "JCB00000038X",
+      "model_name": "19C-1",
+      "category": "Telescópica",
+      "engine_hours": 13537.498172451424,
+      "status": "taller",
+      "hourly_rate": "50.5 EUR"
+    },
+    {
+      "vin": "JCB00000039X",
+      "model_name": "19C-1",
+      "category": "Telescópica",
+      "engine_hours": "1154 hrs",
+      "status": "  TALLer "
+    },
+    {
+      "vin": "JCB00000040X",
+      "model_name": "js220",
+      "category": "Compactación",
+      "engine_hours": 13689.52130353422,
+      "status": "ROTO!!",
+      "hourly_rate": 45
+    },
+    {
+      "vin": "JCB00000041X",
+      "model_name": "19C_1",
+      "category": "Cargadora",
+      "engine_hours": "2464,71",
+      "status": "ROTO!!",
+      "hourly_rate": 25.5
+    },
+    {
+      "vin": "JCB00000042X",
+      "model_name": "VMT260  ",
+      "brand": "  JCB",
+      "category": "Cargadora",
+      "engine_hours": 1911.8083442307893,
+      "status": "alquilado"
+    },
+    {
+      "vin": "JCB00000043X",
+      "model_name": "  vmt260 ",
+      "brand": "jcb",
+      "category": "Excavadora",
+      "engine_hours": 3420.7434604602768,
+      "status": "ROTO!!"
+    },
+    {
+      "vin": "JCB00000044X",
+      "model_name": "4cx",
+      "brand": "  JCB",
+      "category": "Compactación",
+      "engine_hours": 12299.183458695026,
+      "status": "disponible"
+    },
+    {
+      "vin": "JCB00000045X",
+      "model_name": "531-70",
+      "brand": "jcb",
+      "category": "Telescópica",
+      "engine_hours": "1545 hrs",
+      "status": "disponible",
+      "hourly_rate": 45
+    },
+    {
+      "vin": "JCB00000046X",
+      "model_name": "  teletruk 30d ",
+      "category": "Compactación",
+      "engine_hours": 12193.232947252021,
+      "status": "  TALLer "
+    },
+    {
+      "vin": "JCB00000047X",
+      "model_name": "teletruk 30d",
+      "category": "Telescópica",
+      "engine_hours": "1028,9",
+      "status": "  TALLer "
+    },
+    {
+      "vin": "JCB00000048X",
+      "model_name": "3CX",
+      "category": "Compactación",
+      "engine_hours": 1791.9909377792303,
+      "status": "disponible",
+      "hourly_rate": 45
+    },
+    {
+      "vin": "JCB00000049X",
+      "model_name": "540-140",
+      "brand": "JcB",
+      "category": "Compactación",
+      "engine_hours": 6184.061132355378,
+      "status": "repair"
+    },
+    {
+      "vin": "JCB00000050X",
+      "model_name": "409",
+      "category": "Telescópica",
+      "engine_hours": 6741.276706136906,
+      "status": "repair"
+    },
+    {
+      "vin": "JCB00000051X",
+      "model_name": "540-140",
+      "brand": "JcB",
+      "category": "Excavadora",
+      "engine_hours": 143.92477513185455,
+      "status": "  TALLer ",
+      "hourly_rate": "50.5 EUR"
+    },
+    {
+      "vin": "JCB00000052X",
+      "model_name": "19C-1",
+      "brand": "JcB",
+      "category": "Cargadora",
+      "engine_hours": 2941.2914365614297,
+      "status": "ROTO!!"
+    },
+    {
+      "vin": "JCB00000053X",
+      "model_name": "  js220 ",
+      "brand": "JCB",
+      "category": "Cargadora",
+      "engine_hours": 14562.615275222273,
+      "status": "repair"
+    },
+    {
+      "vin": "JCB00000054X",
+      "model_name": "409  ",
+      "brand": "JCB",
+      "category": "Excavadora",
+      "engine_hours": 12305.83762837513,
+      "status": "disponible"
+    },
+    {
+      "vin": "JCB00000055X",
+      "model_name": "JS220",
+      "brand": "  JCB",
+      "category": "Compactación",
+      "engine_hours": 11178.445308053362,
+      "status": "  TALLer ",
+      "hourly_rate": -10.0
+    },
+    {
+      "vin": "JCB00000056X",
+      "model_name": "531-70",
+      "brand": "jcb",
+      "category": "Compactación",
+      "engine_hours": 508950.5958378623,
+      "status": "alquilado"
+    },
+    {
+      "vin": "JCB00000057X",
+      "model_name": "4CX",
+      "brand": "JcB",
+      "category": "Excavadora",
+      "engine_hours": "852 hrs",
+      "status": "alquilado"
+    },
+    {
+      "vin": "JCB00000058X",
+      "model_name": "JS220",
+      "category": "Excavadora",
+      "engine_hours": 6565.2985422041775,
+      "status": "  TALLer ",
+      "hourly_rate": "30,5"
+    },
+    {
+      "vin": "JCB00000059X",
+      "model_name": "  409 ",
+      "brand": "JcB",
+      "category": "Cargadora",
+      "engine_hours": "3283,39",
+      "status": "repair"
+    },
+    {
+      "vin": "JCB00000060X",
+      "model_name": "4CX",
+      "brand": "JcB",
+      "category": "Cargadora",
+      "engine_hours": 12720.4897672516,
+      "status": "DISPONIBLE"
+    },
+    {
+      "vin": "JCB00000061X",
+      "model_name": "531_70",
+      "category": "Compactación",
+      "engine_hours": "3773,35",
+      "status": "repair"
+    },
+    {
+      "vin": "JCB00000062X",
+      "model_name": "JS220",
+      "category": "Compactación",
+      "engine_hours": 2084.4637960312057,
+      "status": "disponible",
+      "hourly_rate": -10.0
+    },
+    {
+      "vin": "JCB00000063X",
+      "model_name": "4CX",
+      "brand": "jcb",
+      "category": "Compactación",
+      "engine_hours": 1167.4362670951593,
+      "status": "alquilado"
+    },
+    {
+      "vin": "JCB00000064X",
+      "model_name": "531-70",
+      "brand": "  JCB",
+      "category": "Telescópica",
+      "engine_hours": 13651.420154346373,
+      "status": "alquilado",
+      "hourly_rate": "50.5 EUR"
+    },
+    {
+      "vin": "JCB00000065X",
+      "model_name": "  js220 ",
+      "brand": "jcb",
+      "category": "Cargadora",
+      "engine_hours": 14838.926227054277,
+      "status": "taller"
+    },
+    {
+      "vin": "JCB00000066X",
+      "model_name": "19c-1",
+      "brand": "JcB",
+      "category": "Excavadora",
+      "engine_hours": "830 hrs",
+      "status": "taller",
+      "hourly_rate": 45
+    },
+    {
+      "vin": "JCB00000067X",
+      "model_name": "3CX",
+      "brand": "JcB",
+      "category": "Compactación",
+      "engine_hours": "928 hrs",
+      "status": "repair",
+      "hourly_rate": -10.0
+    },
+    {
+      "vin": "JCB00000068X",
+      "model_name": "409",
+      "category": "Cargadora",
+      "engine_hours": "421,75",
+      "status": "  TALLer ",
+      "hourly_rate": 30.0
+    },
+    {
+      "vin": "JCB00000069X",
+      "model_name": "409",
+      "brand": "  JCB",
+      "category": "Cargadora",
+      "engine_hours": 9702.862281746962,
+      "status": "disponible"
+    },
+    {
+      "vin": "JCB00000070X",
+      "model_name": "Teletruk 30D",
+      "category": "Excavadora",
+      "engine_hours": 11620.472696608122,
+      "status": "alquilado",
+      "hourly_rate": 25.5
+    },
+    {
+      "vin": "JCB00000071X",
+      "model_name": "VMT260",
+      "brand": "JCB",
+      "category": "Compactación",
+      "engine_hours": 11366.998950268686,
+      "status": "ROTO!!"
+    },
+    {
+      "vin": "JCB00000072X",
+      "model_name": "531-70",
+      "category": "Excavadora",
+      "engine_hours": 3672.40323052962,
+      "status": "alquilado",
+      "hourly_rate": 45
+    },
+    {
+      "vin": "JCB00000073X",
+      "model_name": "531-70",
+      "brand": "  JCB",
+      "category": "Cargadora",
+      "engine_hours": 9548.375663638624,
+      "status": "DISPONIBLE",
+      "hourly_rate": "30,5"
+    },
+    {
+      "vin": "JCB00000074X",
+      "model_name": "540-140  ",
+      "category": "Excavadora",
+      "engine_hours": 2674.975065204682,
+      "status": "disponible"
+    },
+    {
+      "vin": "JCB00000075X",
+      "model_name": "3CX",
+      "brand": "JCB",
+      "category": "Telescópica",
+      "engine_hours": 13929.675362032462,
+      "status": "  TALLer ",
+      "hourly_rate": "30,5"
+    },
+    {
+      "vin": "JCB00000076X",
+      "model_name": "531-70",
+      "category": "Compactación",
+      "engine_hours": 5986.16254963372,
+      "status": "DISPONIBLE"
+    },
+    {
+      "vin": "JCB00000077X",
+      "model_name": "540-140  ",
+      "brand": "JcB",
+      "category": "Telescópica",
+      "engine_hours": -75.87146076998408,
+      "status": "disponible"
+    },
+    {
+      "vin": "JCB00000078X",
+      "model_name": "Teletruk 30D",
+      "brand": "jcb",
+      "category": "Excavadora",
+      "engine_hours": 10854.443801417656,
+      "status": "repair",
+      "hourly_rate": 45
+    },
+    {
+      "vin": "JCB00000079X",
+      "model_name": "540-140",
+      "brand": "  JCB",
+      "category": "Compactación",
+      "engine_hours": 3457.002288144473,
+      "status": "DISPONIBLE"
+    },
+    {
+      "vin": "JCB00000080X",
+      "model_name": "540-140",
+      "brand": "JcB",
+      "category": "Telescópica",
+      "engine_hours": 3577.4323257379965,
+      "status": "alquilado",
+      "hourly_rate": -10.0
+    },
+    {
+      "vin": "JCB00000081X",
+      "model_name": "Teletruk 30D",
+      "category": "Cargadora",
+      "engine_hours": 13975.376001207691,
+      "status": "ROTO!!"
+    },
+    {
+      "vin": "JCB00000082X",
+      "model_name": "409",
+      "category": "Telescópica",
+      "engine_hours": "1715 hrs",
+      "status": "repair"
+    },
+    {
+      "vin": "JCB00000083X",
+      "model_name": "540-140",
+      "brand": "jcb",
+      "engine_hours": "1323 hrs",
+      "status": "ROTO!!"
+    },
+    {
+      "vin": "JCB00000084X",
+      "model_name": "531-70",
+      "brand": "JCB",
+      "engine_hours": 5718.680579949285,
+      "status": "alquilado",
+      "hourly_rate": -10.0
+    },
+    {
+      "vin": "JCB00000085X",
+      "model_name": "VMT260",
+      "brand": "  JCB",
+      "category": "Excavadora",
+      "engine_hours": 13049.485233761594,
+      "status": "  TALLer ",
+      "hourly_rate": -10.0
+    },
+    {
+      "vin": "JCB00000086X",
+      "model_name": "JS220",
+      "category": "Excavadora",
+      "engine_hours": 6224.587343017915,
+      "status": "DISPONIBLE"
+    },
+    {
+      "vin": "JCB00000087X",
+      "model_name": "VMT260",
+      "brand": "JCB",
+      "category": "Excavadora",
+      "engine_hours": 12282.384956986445,
+      "status": "  TALLer "
+    },
+    {
+      "vin": "JCB00000088X",
+      "model_name": "4CX",
+      "category": "Excavadora",
+      "engine_hours": 3060.590631304449,
+      "status": "ROTO!!",
+      "hourly_rate": 45
+    },
+    {
+      "vin": "JCB00000089X",
+      "model_name": "JS220",
+      "category": "Cargadora",
+      "engine_hours": "1620,74",
+      "status": "DISPONIBLE"
+    },
+    {
+      "vin": "JCB00000090X",
+      "model_name": "VMT260",
+      "brand": "JcB",
+      "category": "Compactación",
+      "engine_hours": 1032.0693995761987,
+      "status": "alquilado",
+      "hourly_rate": "30,5"
+    },
+    {
+      "vin": "JCB00000091X",
+      "model_name": "531-70  ",
+      "brand": "jcb",
+      "category": "Compactación",
+      "engine_hours": 2620.3216451725775,
+      "status": "repair",
+      "hourly_rate": 25.5
+    },
+    {
+      "vin": "JCB00000092X",
+      "model_name": "4cx",
+      "brand": "  JCB",
+      "category": "Telescópica",
+      "engine_hours": 870.8876012418149,
+      "status": "repair",
+      "hourly_rate": -10.0
+    },
+    {
+      "vin": "JCB00000093X",
+      "model_name": "4cx",
+      "category": "Excavadora",
+      "engine_hours": "4852,80",
+      "status": "alquilado",
+      "hourly_rate": "30,5"
+    },
+    {
+      "vin": "JCB00000094X",
+      "model_name": "JS220",
+      "category": "Excavadora",
+      "engine_hours": 8783.13978281301,
+      "status": "  TALLer "
+    },
+    {
+      "vin": "JCB00000095X",
+      "model_name": "4CX  ",
+      "brand": "jcb",
+      "engine_hours": 5926.068292975551,
+      "status": "repair",
+      "hourly_rate": 25.5
+    },
+    {
+      "vin": "JCB00000096X",
+      "model_name": "  vmt260 ",
+      "brand": "JcB",
+      "category": "Telescópica",
+      "engine_hours": 12866.455696831528,
+      "status": "repair"
+    },
+    {
+      "vin": "JCB00000097X",
+      "model_name": "409",
+      "brand": "JcB",
+      "category": "Excavadora",
+      "engine_hours": 11474.302086053121,
+      "status": "ROTO!!",
+      "hourly_rate": 25.5
+    },
+    {
+      "vin": "JCB00000098X",
+      "model_name": "VMT260",
+      "brand": "jcb",
+      "category": "Cargadora",
+      "engine_hours": 11893.632149586223,
+      "status": "DISPONIBLE",
+      "hourly_rate": "50.5 EUR"
+    },
+    {
+      "vin": "JCB00000099X",
+      "model_name": "  19c-1 ",
+      "brand": "jcb",
+      "category": "Compactación",
+      "engine_hours": 11992.676944693949,
+      "status": "alquilado"
+    },
+    {
+      "vin": "JCB00000100X",
+      "model_name": "409",
+      "brand": "JCB",
+      "category": "Telescópica",
+      "engine_hours": 14515.634762887335,
+      "status": "disponible",
+      "hourly_rate": "50.5 EUR"
+    },
+    {
+      "vin": "JCB00000101X",
+      "model_name": "  409 ",
+      "brand": "jcb",
+      "category": "Cargadora",
+      "engine_hours": 9940.954114784048,
+      "status": "repair"
+    },
+    {
+      "vin": "JCB00000102X",
+      "model_name": "4CX",
+      "brand": "  JCB",
+      "category": "Cargadora",
+      "engine_hours": 562978.5151569322,
+      "status": "ROTO!!",
+      "hourly_rate": -10.0
+    },
+    {
+      "vin": "JCB00000103X",
+      "model_name": "531-70",
+      "brand": "JCB",
+      "engine_hours": "1736 hrs",
+      "status": "ROTO!!",
+      "hourly_rate": "50.5 EUR"
+    },
+    {
+      "vin": "JCB00000104X",
+      "model_name": "19C-1",
+      "brand": "JcB",
+      "category": "Cargadora",
+      "engine_hours": 462.59011359716163,
+      "status": "ROTO!!"
+    },
+    {
+      "vin": "JCB00000105X",
+      "model_name": "VMT260",
+      "category": "Excavadora",
+      "engine_hours": 10361.500096525311,
+      "status": "DISPONIBLE"
+    },
+    {
+      "vin": "JCB00000106X",
+      "model_name": "  js220 ",
+      "brand": "jcb",
+      "category": "Cargadora",
+      "engine_hours": "896 hrs",
+      "status": "taller",
+      "hourly_rate": "30,5"
+    },
+    {
+      "vin": "JCB00000107X",
+      "model_name": "VMT260",
+      "brand": "JcB",
+      "category": "Cargadora",
+      "engine_hours": 10605.39448165648,
+      "status": "DISPONIBLE",
+      "hourly_rate": -10.0
+    },
+    {
+      "vin": "JCB00000108X",
+      "model_name": "540-140",
+      "brand": "jcb",
+      "category": "Telescópica",
+      "engine_hours": 1060.321988413933,
+      "status": "disponible",
+      "hourly_rate": 25.5
+    },
+    {
+      "vin": "JCB00000109X",
+      "model_name": "531-70  ",
+      "brand": "  JCB",
+      "category": "Telescópica",
+      "engine_hours": 12401.446282717705,
+      "status": "repair",
+      "hourly_rate": 45
+    },
+    {
+      "vin": "JCB00000110X",
+      "model_name": "VMT260",
+      "category": "Compactación",
+      "engine_hours": 12463.111675553675,
+      "status": "DISPONIBLE",
+      "hourly_rate": 25.5
+    },
+    {
+      "vin": "JCB00000111X",
+      "model_name": "531-70  ",
+      "brand": "jcb",
+      "category": "Cargadora",
+      "engine_hours": 842.3612840362366,
+      "status": "  TALLer "
+    },
+    {
+      "vin": "JCB00000112X",
+      "model_name": "  409 ",
+      "brand": "JcB",
+      "category": "Cargadora",
+      "engine_hours": 3021.759832061973,
+      "status": "DISPONIBLE",
+      "hourly_rate": 45
+    },
+    {
+      "vin": "JCB00000113X",
+      "model_name": "409",
+      "brand": "JcB",
+      "category": "Compactación",
+      "engine_hours": 10280.911203075444,
+      "status": "DISPONIBLE",
+      "hourly_rate": "50.5 EUR"
+    },
+    {
+      "vin": "JCB00000114X",
+      "model_name": "VMT260",
+      "brand": "JCB",
+      "category": "Cargadora",
+      "engine_hours": 755136.2664566993,
+      "status": "ROTO!!"
+    },
+    {
+      "vin": "JCB00000115X",
+      "model_name": "VMT260",
+      "brand": "JCB",
+      "category": "Telescópica",
+      "engine_hours": 2409.492613726177,
+      "status": "  TALLer "
+    },
+    {
+      "vin": "JCB00000116X",
+      "model_name": "19c-1",
+      "brand": "JcB",
+      "category": "Excavadora",
+      "engine_hours": "4710,23",
+      "status": "alquilado"
+    },
+    {
+      "vin": "JCB00000117X",
+      "model_name": "409",
+      "category": "Compactación",
+      "engine_hours": 11914.097114083557,
+      "status": "taller",
+      "hourly_rate": -10.0
+    },
+    {
+      "vin": "JCB00000118X",
+      "model_name": "  teletruk 30d ",
+      "brand": "jcb",
+      "category": "Compactación",
+      "engine_hours": "737 hrs",
+      "status": "alquilado"
+    },
+    {
+      "vin": "JCB00000119X",
+      "model_name": "409  ",
+      "brand": "JcB",
+      "category": "Cargadora",
+      "engine_hours": 882115.1333405763,
+      "status": "DISPONIBLE",
+      "hourly_rate": -10.0
+    },
+    {
+      "vin": "JCB00000120X",
+      "model_name": "531-70",
+      "brand": "jcb",
+      "category": "Compactación",
+      "engine_hours": 4198.998359728678,
+      "status": "  TALLer ",
+      "hourly_rate": "30,5"
+    },
+    {
+      "vin": "JCB00000121X",
+      "model_name": "VMT260",
+      "brand": "JcB",
+      "category": "Cargadora",
+      "engine_hours": 7330.431104505361,
+      "status": "DISPONIBLE"
+    },
+    {
+      "vin": "JCB00000122X",
+      "model_name": "3CX",
+      "category": "Cargadora",
+      "engine_hours": 13422.447334391903,
+      "status": "disponible"
+    },
+    {
+      "vin": "JCB00000123X",
+      "model_name": "4CX  ",
+      "brand": "jcb",
+      "engine_hours": "684 hrs",
+      "status": "alquilado",
+      "hourly_rate": 30.0
+    },
+    {
+      "vin": "JCB00000124X",
+      "model_name": "VMT260",
+      "brand": "  JCB",
+      "category": "Telescópica",
+      "engine_hours": 9316.461532273257,
+      "status": "DISPONIBLE",
+      "hourly_rate": "50.5 EUR"
+    },
+    {
+      "vin": "JCB00000125X",
+      "model_name": "540-140",
+      "brand": "  JCB",
+      "category": "Telescópica",
+      "engine_hours": 1098.674611801247,
+      "status": "alquilado",
+      "hourly_rate": 45
+    },
+    {
+      "vin": "JCB00000126X",
+      "model_name": "531-70",
+      "brand": "  JCB",
+      "category": "Excavadora",
+      "engine_hours": 10792.192996653052,
+      "status": "repair"
+    },
+    {
+      "vin": "JCB00000127X",
+      "model_name": "JS220",
+      "brand": "  JCB",
+      "category": "Cargadora",
+      "engine_hours": 11161.710737352392,
+      "status": "disponible"
+    },
+    {
+      "vin": "JCB00000128X",
+      "model_name": "409",
+      "brand": "jcb",
+      "category": "Compactación",
+      "engine_hours": 9397.797319218334,
+      "status": "alquilado"
+    },
+    {
+      "vin": "JCB00000129X",
+      "model_name": "JS220  ",
+      "category": "Cargadora",
+      "engine_hours": 8523.784962377687,
+      "status": "taller"
+    },
+    {
+      "vin": "JCB00000130X",
+      "model_name": "531-70  ",
+      "category": "Telescópica",
+      "engine_hours": 14671.836862069766,
+      "status": "DISPONIBLE",
+      "hourly_rate": -10.0
+    },
+    {
+      "vin": "JCB00000131X",
+      "model_name": "409",
+      "brand": "JCB",
+      "category": "Telescópica",
+      "engine_hours": "929,56",
+      "status": "taller",
+      "hourly_rate": "50.5 EUR"
+    },
+    {
+      "vin": "JCB00000132X",
+      "model_name": "409  ",
+      "brand": "  JCB",
+      "category": "Cargadora",
+      "engine_hours": "1742 hrs",
+      "status": "repair"
+    },
+    {
+      "vin": "JCB00000133X",
+      "model_name": "  4cx ",
+      "brand": "jcb",
+      "category": "Excavadora",
+      "engine_hours": 1142.4711586841652,
+      "status": "disponible"
+    },
+    {
+      "vin": "JCB00000134X",
+      "model_name": "VMT260",
+      "category": "Telescópica",
+      "engine_hours": 2179.9034957021518,
+      "status": "taller",
+      "hourly_rate": 25.5
+    },
+    {
+      "vin": "JCB00000135X",
+      "model_name": "3CX",
+      "brand": "  JCB",
+      "category": "Compactación",
+      "engine_hours": "1578 hrs",
+      "status": "DISPONIBLE"
+    },
+    {
+      "vin": "JCB00000136X",
+      "model_name": "  vmt260 ",
+      "brand": "jcb",
+      "category": "Excavadora",
+      "engine_hours": 10311.142312895798,
+      "status": "  TALLer "
+    },
+    {
+      "vin": "JCB00000137X",
+      "model_name": "409",
+      "brand": "JCB",
+      "category": "Compactación",
+      "engine_hours": "2293,26",
+      "status": "repair",
+      "hourly_rate": -10.0
+    },
+    {
+      "vin": "JCB00000138X",
+      "model_name": "  540-140 ",
+      "brand": "  JCB",
+      "engine_hours": 6932.183815116093,
+      "status": "  TALLer "
+    },
+    {
+      "vin": "JCB00000139X",
+      "model_name": "19c-1",
+      "brand": "JCB",
+      "category": "Cargadora",
+      "engine_hours": 1212.4272070877435,
+      "status": "taller"
+    },
+    {
+      "vin": "JCB00000140X",
+      "model_name": "531-70  ",
+      "category": "Compactación",
+      "engine_hours": 3314.089507079931,
+      "status": "repair",
+      "hourly_rate": -10.0
+    },
+    {
+      "vin": "JCB00000141X",
+      "model_name": "Teletruk 30D",
+      "category": "Excavadora",
+      "engine_hours": 4606.296359683078,
+      "status": "ROTO!!",
+      "hourly_rate": "50.5 EUR"
+    },
+    {
+      "vin": "JCB00000142X",
+      "model_name": "531-70  ",
+      "brand": "JCB",
+      "category": "Cargadora",
+      "engine_hours": "2825,89",
+      "status": "taller"
+    },
+    {
+      "vin": "JCB00000143X",
+      "model_name": "531-70",
+      "category": "Cargadora",
+      "engine_hours": "4118,6",
+      "status": "repair"
+    },
+    {
+      "vin": "JCB00000144X",
+      "model_name": "Teletruk 30D  ",
+      "category": "Telescópica",
+      "engine_hours": "1886 hrs",
+      "status": "  TALLer "
+    },
+    {
+      "vin": "JCB00000145X",
+      "model_name": "3cx",
+      "category": "Excavadora",
+      "engine_hours": 14915.029481520764,
+      "status": "  TALLer ",
+      "hourly_rate": 45
+    },
+    {
+      "vin": "JCB00000146X",
+      "model_name": "540-140  ",
+      "category": "Telescópica",
+      "engine_hours": "1760,55",
+      "status": "repair",
+      "hourly_rate": 25.5
+    },
+    {
+      "vin": "JCB00000147X",
+      "model_name": "531-70  ",
+      "category": "Excavadora",
+      "engine_hours": 4047.201162315629,
+      "status": "repair",
+      "hourly_rate": 30.0
+    },
+    {
+      "vin": "JCB00000148X",
+      "model_name": "3CX",
+      "brand": "jcb",
+      "category": "Excavadora",
+      "engine_hours": "1021 hrs",
+      "status": "ROTO!!",
+      "hourly_rate": 25.5
+    },
+    {
+      "vin": "JCB00000149X",
+      "model_name": "  19c-1 ",
+      "brand": "JCB",
+      "category": "Excavadora",
+      "engine_hours": 1550.6945301577364,
+      "status": "taller",
+      "hourly_rate": -10.0
+    },
+    {
+      "vin": "JCB00000150X",
+      "model_name": "19C_1",
+      "category": "Telescópica",
+      "engine_hours": "2551,3",
+      "status": "DISPONIBLE",
+      "hourly_rate": "50.5 EUR"
+    }
+  ],
+  "rentals": [
+    {
+      "vin": "JCB00000104X",
+      "cif": "B00000086",
+      "rental_date": "2023-10-16",
+      "return_date": "2024-03-10",
+      "estimated_hours": 311
+    },
+    {
+      "vin": "JCB00000064X",
+      "cif": "B00000049",
+      "rental_date": "16-06-2022",
+      "estimated_hours": 537
+    },
+    {
+      "vin": "JCB00000110X",
+      "cif": "B00000029",
+      "rental_date": "2022.08.06",
+      "estimated_hours": 995
+    },
+    {
+      "vin": "JCB00000144X",
+      "cif": "B00000071",
+      "rental_date": "2023/05/07",
+      "return_date": "2023-10-26"
+    },
+    {
+      "vin": "JCB00000042X",
+      "cif": "B00000015",
+      "rental_date": "24-09-2022"
+    },
+    {
+      "vin": "JCB00000094X",
+      "cif": "B00000107",
+      "rental_date": "30/10/2022",
+      "return_date": "2023/01/18",
+      "estimated_hours": 703
+    },
+    {
+      "vin": "JCB00000042X",
+      "cif": "B00000111",
+      "rental_date": "16-05-2022",
+      "estimated_hours": 127
+    },
+    {
+      "vin": "JCB00000050X",
+      "cif": "B00000125",
+      "rental_date": "2023-03-18",
+      "return_date": "2023.09.06",
+      "estimated_hours": 348
+    },
+    {
+      "vin": "JCB00000042X",
+      "cif": "B00000101",
+      "rental_date": "2024/09/10",
+      "return_date": "2024-10-04",
+      "estimated_hours": 888
+    },
+    {
+      "vin": "JCB00000112X",
+      "cif": "B00000122",
+      "rental_date": "2022/05/26",
+      "return_date": "22-10-2022",
+      "estimated_hours": 846
+    },
+    {
+      "vin": "JCB00000043X",
+      "cif": "B00000123",
+      "rental_date": "29-07-2023",
+      "estimated_hours": 124
+    },
+    {
+      "vin": "JCB00000135X",
+      "cif": "B00000019",
+      "rental_date": "01/03/2024",
+      "return_date": "2024/08/17",
+      "estimated_hours": 774
+    },
+    {
+      "vin": "JCB00000105X",
+      "cif": "B00000064",
+      "rental_date": "2023-08-29",
+      "return_date": "03/12/2023",
+      "estimated_hours": "295"
+    },
+    {
+      "vin": "JCB00000028X",
+      "cif": "B00000051",
+      "rental_date": "2024.09.15",
+      "estimated_hours": 263
+    },
+    {
+      "vin": "JCB00000072X",
+      "cif": "B00000140",
+      "rental_date": "2023-10-20",
+      "estimated_hours": 939
+    },
+    {
+      "vin": "JCB00000076X",
+      "cif": "B00000089",
+      "rental_date": "2024-04-30",
+      "return_date": "19/09/2024",
+      "estimated_hours": 199
+    },
+    {
+      "vin": "JCB00000030X",
+      "cif": "B00000094",
+      "rental_date": "2022/05/31",
+      "return_date": "2022/06/16",
+      "estimated_hours": 381
+    },
+    {
+      "vin": "JCB00000069X",
+      "cif": "B00000054",
+      "rental_date": "2023.09.07",
+      "return_date": "2023.09.28"
+    },
+    {
+      "vin": "JCB00000009X",
+      "cif": "B00000012",
+      "rental_date": "2023/04/24",
+      "return_date": "2023-09-12",
+      "estimated_hours": 721
+    },
+    {
+      "vin": "JCB00000050X",
+      "cif": "B00000095",
+      "rental_date": "20-08-2023",
+      "estimated_hours": 930
+    },
+    {
+      "vin": "JCB00000036X",
+      "cif": "B00000057",
+      "rental_date": "2023-09-24",
+      "estimated_hours": 130
+    },
+    {
+      "vin": "JCB00000032X",
+      "cif": "B00000028",
+      "rental_date": "2024.07.26",
+      "return_date": "18/01/2025",
+      "estimated_hours": 365
+    },
+    {
+      "vin": "JCB00000085X",
+      "cif": "B00000117",
+      "rental_date": "2022.04.27",
+      "estimated_hours": "281"
+    },
+    {
+      "vin": "JCB00000007X",
+      "cif": "B00000082",
+      "rental_date": "2023.10.01",
+      "return_date": "2024.01.22",
+      "estimated_hours": 385
+    },
+    {
+      "vin": "JCB00000103X",
+      "cif": "B00000093",
+      "rental_date": "2024.05.02",
+      "return_date": "03-09-2024",
+      "estimated_hours": 69
+    },
+    {
+      "vin": "JCB00000068X",
+      "cif": "B00000105",
+      "rental_date": "2022.10.30",
+      "estimated_hours": 853
+    },
+    {
+      "vin": "JCB00000042X",
+      "cif": "B00000001",
+      "rental_date": "2022-08-02",
+      "estimated_hours": 981
+    },
+    {
+      "vin": "JCB00000041X",
+      "cif": "B00000031",
+      "rental_date": "2023.12.06",
+      "estimated_hours": 198
+    },
+    {
+      "vin": "JCB00000009X",
+      "cif": "B00000041",
+      "rental_date": "2022.04.03",
+      "return_date": "2022/07/16",
+      "estimated_hours": 974
+    },
+    {
+      "vin": "JCB00000083X",
+      "cif": "B00000054",
+      "rental_date": "2024-08-03"
+    },
+    {
+      "vin": "JCB00000128X",
+      "cif": "B00000065",
+      "rental_date": "28-06-2023",
+      "return_date": "2023/07/05",
+      "estimated_hours": 813
+    },
+    {
+      "vin": "JCB00000035X",
+      "cif": "B00000032",
+      "rental_date": "14/06/2022",
+      "return_date": "20-07-2022",
+      "estimated_hours": 662
+    },
+    {
+      "vin": "JCB00000136X",
+      "cif": "B00000131",
+      "rental_date": "2022-02-23",
+      "estimated_hours": 324
+    },
+    {
+      "vin": "JCB00000124X",
+      "cif": "B00000108",
+      "rental_date": "02-12-2024",
+      "return_date": "2025.01.08",
+      "estimated_hours": 224
+    },
+    {
+      "vin": "JCB00000029X",
+      "cif": "B00000071",
+      "rental_date": "2024/06/25",
+      "return_date": "2024/07/18",
+      "estimated_hours": "99"
+    },
+    {
+      "vin": "JCB00000066X",
+      "cif": "B00000061",
+      "rental_date": "2022-07-26",
+      "return_date": "16/08/2022",
+      "estimated_hours": -5
+    },
+    {
+      "vin": "JCB00000150X",
+      "cif": "B00000027",
+      "rental_date": "2023/12/25"
+    },
+    {
+      "vin": "JCB00000067X",
+      "cif": "B00000122",
+      "rental_date": "2024.08.07",
+      "estimated_hours": 82
+    },
+    {
+      "vin": "JCB00000112X",
+      "cif": "B00000092",
+      "rental_date": "2023/05/02",
+      "return_date": "24-06-2023",
+      "estimated_hours": 124
+    },
+    {
+      "vin": "JCB00000048X",
+      "cif": "B00000050",
+      "rental_date": "2024/10/12",
+      "return_date": "04/12/2024",
+      "estimated_hours": 377
+    },
+    {
+      "vin": "JCB00000064X",
+      "cif": "B00000132",
+      "rental_date": "2024-07-24",
+      "estimated_hours": 590
+    },
+    {
+      "vin": "JCB00000094X",
+      "cif": "B00000001",
+      "rental_date": "05/07/2022",
+      "estimated_hours": 29
+    },
+    {
+      "vin": "JCB00000044X",
+      "cif": "B00000014",
+      "rental_date": "2023-05-05",
+      "return_date": "11-05-2023",
+      "estimated_hours": 548
+    },
+    {
+      "vin": "JCB00000024X",
+      "cif": "B00000104",
+      "rental_date": "16/07/2023",
+      "estimated_hours": 311
+    },
+    {
+      "vin": "JCB00000068X",
+      "cif": "B00000118",
+      "rental_date": "02-04-2022",
+      "return_date": "2022/04/15",
+      "estimated_hours": 426
+    },
+    {
+      "vin": "JCB00000063X",
+      "cif": "B00000042",
+      "rental_date": "2022.06.24",
+      "estimated_hours": 159
+    },
+    {
+      "vin": "JCB00000067X",
+      "cif": "B00000077",
+      "rental_date": "2024/09/13",
+      "return_date": "11/10/2024",
+      "estimated_hours": 534
+    },
+    {
+      "vin": "JCB00000009X",
+      "cif": "B00000086",
+      "rental_date": "2024.06.06",
+      "estimated_hours": 480
+    },
+    {
+      "vin": "JCB00000139X",
+      "cif": "B00000091",
+      "rental_date": "2022/02/01",
+      "return_date": "2022-03-03",
+      "estimated_hours": 840
+    },
+    {
+      "vin": "JCB00000060X",
+      "cif": "B00000117",
+      "rental_date": "14-07-2023",
+      "return_date": "22/07/2023",
+      "estimated_hours": 481
+    },
+    {
+      "vin": "JCB00000047X",
+      "cif": "B00000134",
+      "rental_date": "28-12-2023",
+      "estimated_hours": 816
+    },
+    {
+      "vin": "JCB00000063X",
+      "cif": "B00000085",
+      "rental_date": "29-09-2022",
+      "estimated_hours": 473
+    },
+    {
+      "vin": "JCB00000125X",
+      "cif": "B00000112",
+      "rental_date": "03/03/2024",
+      "return_date": "25/05/2024",
+      "estimated_hours": -5
+    },
+    {
+      "vin": "JCB00000144X",
+      "cif": "B00000058",
+      "rental_date": "2023.07.16",
+      "return_date": "2023-10-27",
+      "estimated_hours": "138"
+    },
+    {
+      "vin": "JCB00000121X",
+      "cif": "B00000118",
+      "rental_date": "2024-10-11",
+      "return_date": "15/11/2024",
+      "estimated_hours": 866
+    },
+    {
+      "vin": "JCB00000072X",
+      "cif": "B00000083",
+      "rental_date": "2022/03/10"
+    },
+    {
+      "vin": "JCB00000060X",
+      "cif": "B00000065",
+      "rental_date": "2022-01-13",
+      "estimated_hours": 717
+    },
+    {
+      "vin": "JCB00000021X",
+      "cif": "B00000133",
+      "rental_date": "2022.07.13",
+      "return_date": "2022.08.26",
+      "estimated_hours": 563
+    },
+    {
+      "vin": "JCB00000150X",
+      "cif": "B00000014",
+      "rental_date": "2024/06/22",
+      "return_date": "2024-09-05",
+      "estimated_hours": 318
+    },
+    {
+      "vin": "JCB00000038X",
+      "cif": "B00000046",
+      "rental_date": "15/01/2023",
+      "return_date": "2023-04-13"
+    },
+    {
+      "vin": "JCB00000076X",
+      "cif": "B00000120",
+      "rental_date": "04/05/2023",
+      "estimated_hours": 112
+    },
+    {
+      "vin": "JCB00000003X",
+      "cif": "B00000080",
+      "rental_date": "2022.08.18",
+      "return_date": "2022.10.23",
+      "estimated_hours": 707
+    },
+    {
+      "vin": "JCB00000096X",
+      "cif": "B00000002",
+      "rental_date": "01/01/2022",
+      "return_date": "15/02/2022"
+    },
+    {
+      "vin": "JCB00000019X",
+      "cif": "B00000001",
+      "rental_date": "25/11/2023",
+      "estimated_hours": -5
+    },
+    {
+      "vin": "JCB00000030X",
+      "cif": "B00000061",
+      "rental_date": "2022-11-02",
+      "estimated_hours": 902
+    },
+    {
+      "vin": "JCB00000108X",
+      "cif": "B00000087",
+      "rental_date": "2024.08.05",
+      "return_date": "2024.09.28",
+      "estimated_hours": 354
+    },
+    {
+      "vin": "JCB00000124X",
+      "cif": "B00000120",
+      "rental_date": "2023-10-16",
+      "return_date": "2024.02.27"
+    },
+    {
+      "vin": "JCB00000055X",
+      "cif": "B00000072",
+      "rental_date": "19-05-2023",
+      "estimated_hours": "316"
+    },
+    {
+      "vin": "JCB00000132X",
+      "cif": "B00000131",
+      "rental_date": "03/05/2024",
+      "return_date": "2024-10-14",
+      "estimated_hours": 90
+    },
+    {
+      "vin": "JCB00000101X",
+      "cif": "B00000056",
+      "rental_date": "16-02-2023",
+      "return_date": "2023-05-03",
+      "estimated_hours": "296"
+    },
+    {
+      "vin": "JCB00000075X",
+      "cif": "B00000055",
+      "rental_date": "2022.11.14",
+      "estimated_hours": 690
+    },
+    {
+      "vin": "JCB00000052X",
+      "cif": "B00000082",
+      "rental_date": "04/05/2024",
+      "return_date": "01/08/2024",
+      "estimated_hours": 520
+    },
+    {
+      "vin": "JCB00000034X",
+      "cif": "B00000090",
+      "rental_date": "2023-12-14",
+      "estimated_hours": 222
+    },
+    {
+      "vin": "JCB00000143X",
+      "cif": "B00000112",
+      "rental_date": "20-04-2023",
+      "return_date": "08-08-2023",
+      "estimated_hours": "90"
+    },
+    {
+      "vin": "JCB00000081X",
+      "cif": "B00000068",
+      "rental_date": "31-07-2024",
+      "return_date": "30-08-2024"
+    },
+    {
+      "vin": "JCB00000111X",
+      "cif": "B00000137",
+      "rental_date": "2022/01/09",
+      "estimated_hours": 712
+    },
+    {
+      "vin": "JCB00000104X",
+      "cif": "B00000012",
+      "rental_date": "2024.04.01",
+      "estimated_hours": 923
+    },
+    {
+      "vin": "JCB00000069X",
+      "cif": "B00000084",
+      "rental_date": "2022/05/02",
+      "estimated_hours": "447"
+    },
+    {
+      "vin": "JCB00000115X",
+      "cif": "B00000131",
+      "rental_date": "2022/07/24",
+      "estimated_hours": 18
+    },
+    {
+      "vin": "JCB00000048X",
+      "cif": "B00000042",
+      "rental_date": "2023-05-20",
+      "estimated_hours": 302
+    },
+    {
+      "vin": "JCB00000030X",
+      "cif": "B00000068",
+      "rental_date": "2022.02.07",
+      "estimated_hours": 804
+    },
+    {
+      "vin": "JCB00000042X",
+      "cif": "B00000095",
+      "rental_date": "2024/05/01",
+      "return_date": "2024.05.26",
+      "estimated_hours": 274
+    },
+    {
+      "vin": "JCB00000085X",
+      "cif": "B00000121",
+      "rental_date": "31-12-2024",
+      "return_date": "2025.03.17",
+      "estimated_hours": 353
+    },
+    {
+      "vin": "JCB00000026X",
+      "cif": "B00000115",
+      "rental_date": "28/09/2022",
+      "return_date": "02-10-2022",
+      "estimated_hours": "192"
+    },
+    {
+      "vin": "JCB00000032X",
+      "cif": "B00000133",
+      "rental_date": "13-12-2023"
+    },
+    {
+      "vin": "JCB00000064X",
+      "cif": "B00000048",
+      "rental_date": "02-12-2022",
+      "return_date": "04/02/2023",
+      "estimated_hours": 72
+    },
+    {
+      "vin": "JCB00000091X",
+      "cif": "B00000092",
+      "rental_date": "28/01/2022",
+      "estimated_hours": "171"
+    },
+    {
+      "vin": "JCB00000113X",
+      "cif": "B00000035",
+      "rental_date": "2024/03/28",
+      "return_date": "2024/08/09",
+      "estimated_hours": -5
+    },
+    {
+      "vin": "JCB00000109X",
+      "cif": "B00000032",
+      "rental_date": "2022.05.31",
+      "estimated_hours": 985
+    },
+    {
+      "vin": "JCB00000140X",
+      "cif": "B00000062",
+      "rental_date": "2024.09.08",
+      "return_date": "2024-12-19",
+      "estimated_hours": 806
+    },
+    {
+      "vin": "JCB00000079X",
+      "cif": "B00000132",
+      "rental_date": "2023-05-04",
+      "return_date": "09/05/2023",
+      "estimated_hours": 410
+    },
+    {
+      "vin": "JCB00000116X",
+      "cif": "B00000096",
+      "rental_date": "2023.07.31",
+      "return_date": "2023/11/30",
+      "estimated_hours": 135
+    },
+    {
+      "vin": "JCB00000116X",
+      "cif": "B00000001",
+      "rental_date": "2022.07.04"
+    },
+    {
+      "vin": "JCB00000121X",
+      "cif": "B00000076",
+      "rental_date": "29/11/2024",
+      "return_date": "2025.01.29",
+      "estimated_hours": 709
+    },
+    {
+      "vin": "JCB00000013X",
+      "cif": "B00000127",
+      "rental_date": "17-05-2023",
+      "return_date": "2023-08-25",
+      "estimated_hours": 754
+    },
+    {
+      "vin": "JCB00000019X",
+      "cif": "B00000054",
+      "rental_date": "2022/03/11",
+      "return_date": "2022/08/17",
+      "estimated_hours": 967
+    },
+    {
+      "vin": "JCB00000118X",
+      "cif": "B00000052",
+      "rental_date": "02-05-2022",
+      "estimated_hours": 932
+    },
+    {
+      "vin": "JCB00000108X",
+      "cif": "B00000131",
+      "rental_date": "2024/02/05"
+    },
+    {
+      "vin": "JCB00000086X",
+      "cif": "B00000082",
+      "rental_date": "2022-01-31",
+      "estimated_hours": 622
+    },
+    {
+      "vin": "JCB00000036X",
+      "cif": "B00000057",
+      "rental_date": "2024.03.21",
+      "return_date": "2024.08.07",
+      "estimated_hours": 795
+    },
+    {
+      "vin": "JCB00000144X",
+      "cif": "B00000041",
+      "rental_date": "2022/02/11",
+      "return_date": "2022.02.16",
+      "estimated_hours": 78
+    },
+    {
+      "vin": "JCB00000144X",
+      "cif": "B00000013",
+      "rental_date": "07/07/2024",
+      "return_date": "31-07-2024",
+      "estimated_hours": "146"
+    },
+    {
+      "vin": "JCB00000142X",
+      "cif": "B00000017",
+      "rental_date": "14/03/2023",
+      "estimated_hours": 24
+    },
+    {
+      "vin": "JCB00000058X",
+      "cif": "B00000146",
+      "rental_date": "03-10-2024",
+      "return_date": "19/02/2025",
+      "estimated_hours": "21"
+    },
+    {
+      "vin": "JCB00000009X",
+      "cif": "B00000117",
+      "rental_date": "2024/02/16",
+      "return_date": "06-06-2024"
+    },
+    {
+      "vin": "JCB00000113X",
+      "cif": "B00000044",
+      "rental_date": "10-02-2022",
+      "estimated_hours": 862
+    },
+    {
+      "vin": "JCB00000023X",
+      "cif": "B00000098",
+      "rental_date": "27/11/2024",
+      "return_date": "2025/01/19",
+      "estimated_hours": 211
+    },
+    {
+      "vin": "JCB00000060X",
+      "cif": "B00000096",
+      "rental_date": "2024.08.11",
+      "return_date": "10-11-2024",
+      "estimated_hours": 628
+    },
+    {
+      "vin": "JCB00000001X",
+      "cif": "B00000022",
+      "rental_date": "2022-08-07",
+      "return_date": "2022/11/02",
+      "estimated_hours": 41
+    },
+    {
+      "vin": "JCB00000086X",
+      "cif": "B00000144",
+      "rental_date": "2024.04.17",
+      "estimated_hours": 715
+    },
+    {
+      "vin": "JCB00000146X",
+      "cif": "B00000110",
+      "rental_date": "29/04/2022",
+      "return_date": "03/10/2022",
+      "estimated_hours": 539
+    },
+    {
+      "vin": "JCB00000088X",
+      "cif": "B00000008",
+      "rental_date": "2024/01/25",
+      "return_date": "28-02-2024",
+      "estimated_hours": 736
+    },
+    {
+      "vin": "JCB00000127X",
+      "cif": "B00000026",
+      "rental_date": "2023-09-04",
+      "return_date": "2024.01.23",
+      "estimated_hours": "451"
+    },
+    {
+      "vin": "JCB00000028X",
+      "cif": "B00000130",
+      "rental_date": "2023.05.27",
+      "return_date": "13/10/2023",
+      "estimated_hours": -5
+    },
+    {
+      "vin": "JCB00000131X",
+      "cif": "B00000028",
+      "rental_date": "03-03-2024",
+      "return_date": "31-03-2024",
+      "estimated_hours": "425"
+    },
+    {
+      "vin": "JCB00000076X",
+      "cif": "B00000088",
+      "rental_date": "2023.07.30",
+      "estimated_hours": 479
+    },
+    {
+      "vin": "JCB00000053X",
+      "cif": "B00000059",
+      "rental_date": "06-08-2023",
+      "return_date": "2024-01-18",
+      "estimated_hours": 70
+    },
+    {
+      "vin": "JCB00000019X",
+      "cif": "B00000024",
+      "rental_date": "2024-01-18",
+      "return_date": "08-05-2024"
+    },
+    {
+      "vin": "JCB00000012X",
+      "cif": "B00000078",
+      "rental_date": "2022.08.25",
+      "return_date": "2022-11-26",
+      "estimated_hours": "195"
+    },
+    {
+      "vin": "JCB00000028X",
+      "cif": "B00000002",
+      "rental_date": "2022-11-29"
+    },
+    {
+      "vin": "JCB00000049X",
+      "cif": "B00000106",
+      "rental_date": "2022-11-14",
+      "return_date": "2023-02-26",
+      "estimated_hours": 676
+    },
+    {
+      "vin": "JCB00000140X",
+      "cif": "B00000015",
+      "rental_date": "2024/05/25",
+      "return_date": "30/07/2024",
+      "estimated_hours": 274
+    },
+    {
+      "vin": "JCB00000108X",
+      "cif": "B00000074",
+      "rental_date": "03-06-2022",
+      "estimated_hours": 170
+    },
+    {
+      "vin": "JCB00000090X",
+      "cif": "B00000004",
+      "rental_date": "2024-03-29",
+      "return_date": "2024-09-11"
+    },
+    {
+      "vin": "JCB00000026X",
+      "cif": "B00000026",
+      "rental_date": "2022-03-23",
+      "return_date": "2022/04/02",
+      "estimated_hours": -5
+    },
+    {
+      "vin": "JCB00000068X",
+      "cif": "B00000058",
+      "rental_date": "2022-01-22",
+      "return_date": "22-06-2022",
+      "estimated_hours": 535
+    },
+    {
+      "vin": "JCB00000083X",
+      "cif": "B00000007",
+      "rental_date": "2024.03.03",
+      "return_date": "23-06-2024",
+      "estimated_hours": 988
+    },
+    {
+      "vin": "JCB00000011X",
+      "cif": "B00000099",
+      "rental_date": "2023.09.25",
+      "return_date": "2023-10-11",
+      "estimated_hours": 508
+    },
+    {
+      "vin": "JCB00000135X",
+      "cif": "B00000079",
+      "rental_date": "2022-06-12",
+      "estimated_hours": 558
+    },
+    {
+      "vin": "JCB00000070X",
+      "cif": "B00000124",
+      "rental_date": "2023-02-13",
+      "return_date": "06/04/2023",
+      "estimated_hours": 962
+    },
+    {
+      "vin": "JCB00000134X",
+      "cif": "B00000146",
+      "rental_date": "19/01/2024"
+    },
+    {
+      "vin": "JCB00000084X",
+      "cif": "B00000042",
+      "rental_date": "2022-05-26",
+      "estimated_hours": 266
+    },
+    {
+      "vin": "JCB00000022X",
+      "cif": "B00000103",
+      "rental_date": "31-08-2024",
+      "return_date": "14/11/2024",
+      "estimated_hours": 578
+    },
+    {
+      "vin": "JCB00000094X",
+      "cif": "B00000013",
+      "rental_date": "06-12-2024",
+      "return_date": "2024.12.22",
+      "estimated_hours": 859
+    },
+    {
+      "vin": "JCB00000069X",
+      "cif": "B00000091",
+      "rental_date": "2023-10-02",
+      "estimated_hours": 322
+    },
+    {
+      "vin": "JCB00000026X",
+      "cif": "B00000100",
+      "rental_date": "2022/05/14",
+      "return_date": "2022-09-11",
+      "estimated_hours": -5
+    },
+    {
+      "vin": "JCB00000124X",
+      "cif": "B00000018",
+      "rental_date": "2023/11/29",
+      "return_date": "2024-04-11",
+      "estimated_hours": "331"
+    },
+    {
+      "vin": "JCB00000136X",
+      "cif": "B00000017",
+      "rental_date": "24-08-2024",
+      "return_date": "18-02-2025",
+      "estimated_hours": 450
+    },
+    {
+      "vin": "JCB00000086X",
+      "cif": "B00000070",
+      "rental_date": "13-04-2023",
+      "return_date": "07/07/2023",
+      "estimated_hours": 175
+    },
+    {
+      "vin": "JCB00000147X",
+      "cif": "B00000128",
+      "rental_date": "2024.10.13",
+      "return_date": "2024.11.06",
+      "estimated_hours": 812
+    },
+    {
+      "vin": "JCB00000096X",
+      "cif": "B00000072",
+      "rental_date": "30/09/2023",
+      "return_date": "16-10-2023",
+      "estimated_hours": 497
+    },
+    {
+      "vin": "JCB00000082X",
+      "cif": "B00000084",
+      "rental_date": "08-09-2023",
+      "return_date": "2023/09/23",
+      "estimated_hours": 389
+    },
+    {
+      "vin": "JCB00000088X",
+      "cif": "B00000021",
+      "rental_date": "06/12/2023",
+      "estimated_hours": -5
+    },
+    {
+      "vin": "JCB00000103X",
+      "cif": "B00000120",
+      "rental_date": "2022/03/19",
+      "return_date": "12/07/2022"
+    },
+    {
+      "vin": "JCB00000097X",
+      "cif": "B00000013",
+      "rental_date": "2022/07/25",
+      "return_date": "27-07-2022",
+      "estimated_hours": 464
+    },
+    {
+      "vin": "JCB00000052X",
+      "cif": "B00000047",
+      "rental_date": "2023.02.16",
+      "estimated_hours": 992
+    },
+    {
+      "vin": "JCB00000063X",
+      "cif": "B00000067",
+      "rental_date": "2024.01.19",
+      "return_date": "2024-05-15",
+      "estimated_hours": 735
+    },
+    {
+      "vin": "JCB00000125X",
+      "cif": "B00000049",
+      "rental_date": "2022.05.15",
+      "return_date": "2022.09.22",
+      "estimated_hours": 77
+    },
+    {
+      "vin": "JCB00000108X",
+      "cif": "B00000066",
+      "rental_date": "23/03/2022",
+      "return_date": "2022.06.21",
+      "estimated_hours": 706
+    },
+    {
+      "vin": "JCB00000034X",
+      "cif": "B00000069",
+      "rental_date": "2023.02.14",
+      "return_date": "2023-08-03",
+      "estimated_hours": 504
+    },
+    {
+      "vin": "JCB00000022X",
+      "cif": "B00000109",
+      "rental_date": "2023/10/26",
+      "return_date": "28-02-2024",
+      "estimated_hours": 754
+    },
+    {
+      "vin": "JCB00000125X",
+      "cif": "B00000006",
+      "rental_date": "10-08-2022",
+      "return_date": "2022/11/03",
+      "estimated_hours": 74
+    },
+    {
+      "vin": "JCB00000109X",
+      "cif": "B00000018",
+      "rental_date": "2023.09.29",
+      "return_date": "2023-12-25",
+      "estimated_hours": 426
+    },
+    {
+      "vin": "JCB00000150X",
+      "cif": "B00000129",
+      "rental_date": "30/12/2022",
+      "return_date": "25/04/2023",
+      "estimated_hours": 824
+    },
+    {
+      "vin": "JCB00000016X",
+      "cif": "B00000103",
+      "rental_date": "2022/05/10",
+      "return_date": "14-09-2022",
+      "estimated_hours": 862
+    },
+    {
+      "vin": "JCB00000054X",
+      "cif": "B00000082",
+      "rental_date": "25-01-2024",
+      "estimated_hours": 431
+    },
+    {
+      "vin": "JCB00000116X",
+      "cif": "B00000126",
+      "rental_date": "2024.03.24",
+      "return_date": "02-09-2024",
+      "estimated_hours": 770
+    },
+    {
+      "vin": "JCB00000008X",
+      "cif": "B00000047",
+      "rental_date": "2024/03/25",
+      "estimated_hours": 632
+    },
+    {
+      "vin": "JCB00000139X",
+      "cif": "B00000080",
+      "rental_date": "2023-09-11",
+      "return_date": "2024/03/01",
+      "estimated_hours": 194
+    },
+    {
+      "vin": "JCB00000011X",
+      "cif": "B00000086",
+      "rental_date": "03-12-2024",
+      "return_date": "15/12/2024",
+      "estimated_hours": 808
+    },
+    {
+      "vin": "JCB00000097X",
+      "cif": "B00000114",
+      "rental_date": "29/09/2023",
+      "estimated_hours": 55
+    },
+    {
+      "vin": "JCB00000081X",
+      "cif": "B00000136",
+      "rental_date": "2022/08/18",
+      "estimated_hours": "143"
+    },
+    {
+      "vin": "JCB00000059X",
+      "cif": "B00000058",
+      "rental_date": "2024/05/15",
+      "return_date": "2024.07.20",
+      "estimated_hours": 675
+    },
+    {
+      "vin": "JCB00000019X",
+      "cif": "B00000039",
+      "rental_date": "15/08/2022",
+      "estimated_hours": 307
+    },
+    {
+      "vin": "JCB00000048X",
+      "cif": "B00000070",
+      "rental_date": "2023-12-13",
+      "return_date": "2024/02/20",
+      "estimated_hours": 314
+    },
+    {
+      "vin": "JCB00000011X",
+      "cif": "B00000003",
+      "rental_date": "06-09-2022",
+      "estimated_hours": 960
+    },
+    {
+      "vin": "JCB00000030X",
+      "cif": "B00000032",
+      "rental_date": "2024/08/12",
+      "return_date": "2024-09-24",
+      "estimated_hours": 403
+    },
+    {
+      "vin": "JCB00000041X",
+      "cif": "B00000084",
+      "rental_date": "2024.07.03",
+      "return_date": "2024/08/30",
+      "estimated_hours": 574
+    },
+    {
+      "vin": "JCB00000034X",
+      "cif": "B00000137",
+      "rental_date": "26-12-2023",
+      "return_date": "2024.02.23",
+      "estimated_hours": 135
+    },
+    {
+      "vin": "JCB00000087X",
+      "cif": "B00000059",
+      "rental_date": "21/01/2023",
+      "return_date": "26/01/2023"
+    },
+    {
+      "vin": "JCB00000064X",
+      "cif": "B00000097",
+      "rental_date": "09-03-2023",
+      "return_date": "01-09-2023",
+      "estimated_hours": 953
+    },
+    {
+      "vin": "JCB00000010X",
+      "cif": "B00000072",
+      "rental_date": "19-03-2024",
+      "return_date": "2024.07.01",
+      "estimated_hours": 465
+    },
+    {
+      "vin": "JCB00000095X",
+      "cif": "B00000079",
+      "rental_date": "21/08/2022",
+      "estimated_hours": 85
+    },
+    {
+      "vin": "JCB00000044X",
+      "cif": "B00000085",
+      "rental_date": "2022-11-06",
+      "estimated_hours": 915
+    },
+    {
+      "vin": "JCB00000093X",
+      "cif": "B00000028",
+      "rental_date": "2022-11-05",
+      "return_date": "24/02/2023",
+      "estimated_hours": 962
+    },
+    {
+      "vin": "JCB00000018X",
+      "cif": "B00000005",
+      "rental_date": "24-11-2023",
+      "return_date": "2023.12.26",
+      "estimated_hours": 491
+    },
+    {
+      "vin": "JCB00000142X",
+      "cif": "B00000110",
+      "rental_date": "2022.03.22",
+      "return_date": "2022.07.16",
+      "estimated_hours": 701
+    },
+    {
+      "vin": "JCB00000025X",
+      "cif": "B00000116",
+      "rental_date": "2023-01-28",
+      "return_date": "2023-05-30",
+      "estimated_hours": -5
+    },
+    {
+      "vin": "JCB00000128X",
+      "cif": "B00000102",
+      "rental_date": "2024/08/24",
+      "estimated_hours": 216
+    },
+    {
+      "vin": "JCB00000118X",
+      "cif": "B00000012",
+      "rental_date": "2022.07.28",
+      "return_date": "16-12-2022",
+      "estimated_hours": 795
+    },
+    {
+      "vin": "JCB00000046X",
+      "cif": "B00000125",
+      "rental_date": "2023-02-20",
+      "estimated_hours": 829
+    },
+    {
+      "vin": "JCB00000097X",
+      "cif": "B00000074",
+      "rental_date": "2024/09/12",
+      "return_date": "2024.10.27",
+      "estimated_hours": 222
+    },
+    {
+      "vin": "JCB00000129X",
+      "cif": "B00000007",
+      "rental_date": "25/09/2022",
+      "return_date": "30-11-2022",
+      "estimated_hours": "226"
+    },
+    {
+      "vin": "JCB00000065X",
+      "cif": "B00000099",
+      "rental_date": "08-02-2023",
+      "return_date": "18-07-2023",
+      "estimated_hours": 379
+    },
+    {
+      "vin": "JCB00000136X",
+      "cif": "B00000108",
+      "rental_date": "22/08/2024",
+      "return_date": "2025-01-19",
+      "estimated_hours": 474
+    },
+    {
+      "vin": "JCB00000006X",
+      "cif": "B00000123",
+      "rental_date": "07-09-2023",
+      "return_date": "22-11-2023",
+      "estimated_hours": 673
+    },
+    {
+      "vin": "JCB00000006X",
+      "cif": "B00000133",
+      "rental_date": "04/05/2024",
+      "return_date": "27-07-2024",
+      "estimated_hours": 236
+    },
+    {
+      "vin": "JCB00000091X",
+      "cif": "B00000022",
+      "rental_date": "2022-05-25",
+      "estimated_hours": 441
+    },
+    {
+      "vin": "JCB00000093X",
+      "cif": "B00000110",
+      "rental_date": "2022.04.26",
+      "return_date": "03-09-2022",
+      "estimated_hours": 872
+    },
+    {
+      "vin": "JCB00000131X",
+      "cif": "B00000030",
+      "rental_date": "2022-05-06",
+      "estimated_hours": "356"
+    },
+    {
+      "vin": "JCB00000142X",
+      "cif": "B00000140",
+      "rental_date": "22-07-2023",
+      "estimated_hours": 650
+    },
+    {
+      "vin": "JCB00000097X",
+      "cif": "B00000121",
+      "rental_date": "24/07/2022",
+      "estimated_hours": 509
+    },
+    {
+      "vin": "JCB00000124X",
+      "cif": "B00000095",
+      "rental_date": "2023-02-01",
+      "estimated_hours": 370
+    },
+    {
+      "vin": "JCB00000115X",
+      "cif": "B00000002",
+      "rental_date": "02/01/2022",
+      "return_date": "2022.03.06"
+    },
+    {
+      "vin": "JCB00000088X",
+      "cif": "B00000140",
+      "rental_date": "07-11-2023",
+      "estimated_hours": 307
+    },
+    {
+      "vin": "JCB00000057X",
+      "cif": "B00000128",
+      "rental_date": "12/02/2022",
+      "return_date": "2022.03.13"
+    },
+    {
+      "vin": "JCB00000139X",
+      "cif": "B00000136",
+      "rental_date": "13-08-2022",
+      "return_date": "18/08/2022",
+      "estimated_hours": 807
+    },
+    {
+      "vin": "JCB00000063X",
+      "cif": "B00000016",
+      "rental_date": "2024/09/09",
+      "return_date": "2024/11/01",
+      "estimated_hours": 876
+    },
+    {
+      "vin": "JCB00000043X",
+      "cif": "B00000082",
+      "rental_date": "2024/12/11",
+      "estimated_hours": 448
+    },
+    {
+      "vin": "JCB00000100X",
+      "cif": "B00000096",
+      "rental_date": "2023.12.26",
+      "return_date": "2024-01-01",
+      "estimated_hours": 453
+    }
+  ]
+}
