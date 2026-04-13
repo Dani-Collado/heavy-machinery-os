@@ -33,18 +33,13 @@ class IncomingRental(BaseModel):
 
 
 class DataCleaner:
-    """
-    Service to sanitize and validate incoming dirty data dictionaries.
-    """
     
     @staticmethod
     def _parse_date(date_str: str | None) -> date | None:
         if not date_str:
             return None
         date_str = date_str.strip()
-        formats = [
-            "%Y/%m/%d", "%d-%m-%Y", "%Y.%m.%d", "%d/%m/%Y", "%Y-%m-%d"
-        ]
+        formats = ["%Y/%m/%d", "%d-%m-%Y", "%Y.%m.%d", "%d/%m/%Y", "%Y-%m-%d"]
         for fmt in formats:
             try:
                 return datetime.strptime(date_str, fmt).date()
@@ -74,18 +69,18 @@ class DataCleaner:
             return 0.0
 
     @staticmethod
-    def process_companies(raw_list: list) -> list[dict]:
+    def process_companies(raw_list: list) -> dict:
         cleaned = []
+        errors = []
         with Progress() as progress:
             task = progress.add_task("[yellow]Limpiando Empresas...", total=len(raw_list))
             for raw in raw_list:
                 try:
                     item = IncomingCompany(**raw)
                 except ValidationError as e:
-                    console.print(Panel(
-                        f"[yellow]Fallo validación:[/yellow] {e.errors()[0]['msg']}\n[white]{raw}", 
-                        title="Dato interceptado - Empresa", style="red"
-                    ))
+                    msg = f"Fallo validación: {e.errors()[0]['msg']}"
+                    errors.append({"raw": raw, "error": msg})
+                    console.print(Panel(f"[yellow]{msg}[/yellow]\n[white]{raw}", title="Dato interceptado - Empresa", style="red"))
                     progress.advance(task)
                     continue
                 
@@ -100,31 +95,30 @@ class DataCleaner:
                 }
                 cleaned.append(c)
                 progress.advance(task)
-        return cleaned
+        return {"cleaned": cleaned, "errors": errors}
 
     @staticmethod
-    def process_machinery(raw_list: list) -> list[dict]:
+    def process_machinery(raw_list: list) -> dict:
         cleaned = []
+        errors = []
         with Progress() as progress:
             task = progress.add_task("[blue]Limpiando Maquinaria...", total=len(raw_list))
             for raw in raw_list:
                 try:
                     item = IncomingMachinery(**raw)
                 except ValidationError as e:
-                    console.print(Panel(
-                        f"[yellow]Dato crítico inválido:[/yellow]\n[white]{raw}\n[red]{e.errors()}", 
-                        title="Dato interceptado - Maquinaria", style="red"
-                    ))
+                    msg = f"Dato crítico inválido: {e.errors()}"
+                    errors.append({"raw": raw, "error": msg})
+                    console.print(Panel(f"[yellow]{msg}[/yellow]\n[white]{raw}", title="Dato interceptado - Maquinaria", style="red"))
                     progress.advance(task)
                     continue
                 
                 vin = DataCleaner._clean_string(item.vin)
                 model_name = DataCleaner._clean_string(item.model_name)
                 if not vin or not model_name:
-                    console.print(Panel(
-                        f"[yellow]Falta VIN o Modelo:[/yellow]\n[white]{raw}", 
-                        title="Dato interceptado - Maquinaria", style="red"
-                    ))
+                    msg = "Falta VIN o Modelo funcional."
+                    errors.append({"raw": raw, "error": msg})
+                    console.print(Panel(f"[yellow]{msg}[/yellow]\n[white]{raw}", title="Dato interceptado - Maquinaria", style="red"))
                     progress.advance(task)
                     continue
                     
@@ -162,30 +156,29 @@ class DataCleaner:
                 }
                 cleaned.append(m)
                 progress.advance(task)
-        return cleaned
+        return {"cleaned": cleaned, "errors": errors}
 
     @staticmethod
-    def process_rentals(raw_list: list) -> list[dict]:
+    def process_rentals(raw_list: list) -> dict:
         cleaned = []
+        errors = []
         with Progress() as progress:
             task = progress.add_task("[green]Limpiando Alquileres...", total=len(raw_list))
             for raw in raw_list:
                 try:
                     item = IncomingRental(**raw)
                 except ValidationError as e:
-                    console.print(Panel(
-                        f"[yellow]Estructura inválida:[/yellow] {e.errors()[0]['msg']}\n[white]{raw}", 
-                        title="Dato interceptado - Alquiler", style="red"
-                    ))
+                    msg = f"Estructura inválida: {e.errors()[0]['msg']}"
+                    errors.append({"raw": raw, "error": msg})
+                    console.print(Panel(f"[yellow]{msg}[/yellow]\n[white]{raw}", title="Dato interceptado - Alquiler", style="red"))
                     progress.advance(task)
                     continue
                     
                 start_date = DataCleaner._parse_date(item.rental_date)
                 if not start_date:
-                    console.print(Panel(
-                        f"[yellow]Fecha inicio inválida:[/yellow] {item.rental_date}\n[white]{raw}", 
-                        title="Dato interceptado - Alquiler", style="red"
-                    ))
+                    msg = f"Fecha inicio inválida: {item.rental_date}"
+                    errors.append({"raw": raw, "error": msg})
+                    console.print(Panel(f"[yellow]{msg}[/yellow]\n[white]{raw}", title="Dato interceptado - Alquiler", style="red"))
                     progress.advance(task)
                     continue
                     
@@ -201,4 +194,4 @@ class DataCleaner:
                 }
                 cleaned.append(r)
                 progress.advance(task)
-        return cleaned
+        return {"cleaned": cleaned, "errors": errors}

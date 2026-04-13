@@ -35,13 +35,16 @@ def main():
         raw_rentals = raw_data.get("rentals", [])
         
         status.update("[bold green]🚜 Validando y limpiando Empresas (Memoria)...")
-        cleaned_companies = DataCleaner.process_companies(raw_companies)
+        cleaned_companies_data = DataCleaner.process_companies(raw_companies)
+        cleaned_companies = cleaned_companies_data["cleaned"]
         
         status.update("[bold green]🚜 Validando y limpiando Maquinaria (Memoria)...")
-        cleaned_machinery = DataCleaner.process_machinery(raw_machinery)
+        cleaned_machinery_data = DataCleaner.process_machinery(raw_machinery)
+        cleaned_machinery = cleaned_machinery_data["cleaned"]
         
         status.update("[bold green]🚜 Validando y limpiando Alquileres (Memoria)...")
-        cleaned_rentals = DataCleaner.process_rentals(raw_rentals)
+        cleaned_rentals_data = DataCleaner.process_rentals(raw_rentals)
+        cleaned_rentals = cleaned_rentals_data["cleaned"]
 
     # 3. Persist Companies
     console.print("\n[bold cyan]--- Persistiendo Empresas en SQLite ---")
