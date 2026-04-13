@@ -6,6 +6,10 @@ Su próposito fundamental es exponer públicamente las capacidades del **Nexus M
 ### El Archivo Principal: `main.py`
 Es el corazón de nuestra capa HTTP. Arranca la inicialización segura de la base de datos de manera agnóstica (`init_db()` en su evento *startup*) y genera la auto-documentación técnica (Swagger OpenApi) de todo lo que se programe aquí.
 
+El archivo `main.py` incorpora una capa de aceleración y protección robusta contra ataques de Denegación de Servicio o integraciones saturadas:
+* **Rate Limiting Estricto:** Está configurado utilizando el motor de `slowapi`. Todos los endpoints de esta instalación tienen un cupo preestablecido de **10 peticiones máximas por segundo (10 req/s)** vinculadas a la ip remota. Si un agente o un script intenta sobrepasar este límite, el servidor rechazará la consulta lanzando y protegiendo la base de datos con una excepción formal `RateLimitExceeded` (HTTP 429 Too Many Requests).
+* **Concurrencia Inteligente (I/O Bindings):** Aunque FastAPI es un *framework* asíncrono, los endpoints están definidos intencionadamente como rutinas síncronas (`def` en lugar de `async def`). Esto es una decisión de arquitectura crítica de máximo nivel: como estamos utilizando el motor en disco *SQLite* tradicional (que provoca bloqueos síncronos), si usáramos `async def`, el servidor encolaría frenéticamente las peticiones y bloquearía el único *Event Loop* global congelando la API. Al definirlos con un `def` clásico, la magia interna de **FastAPI los externaliza automáticamente hacia su ThreadPool interno**, ejecutando las peticiones pesadas en hilos independientes y obteniendo lo mejor de "ambos mundos": operaciones de base de datos seguras y un servidor que no se frena y sigue aceptando asíncronamente tráfico nuevo.
+
 ---
 
 ## Detalle y Contexto de los Endpoints

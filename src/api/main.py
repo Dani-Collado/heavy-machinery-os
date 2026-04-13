@@ -1,7 +1,11 @@
 import logging
 from typing import List, Dict, Any, Optional
-from fastapi import FastAPI, HTTPException, Query
+from fastapi import FastAPI, HTTPException, Query, Request
 from pydantic import BaseModel
+
+from slowapi import Limiter, _rate_limit_exceeded_handler
+from slowapi.util import get_remote_address
+from slowapi.errors import RateLimitExceeded
 
 from src.database import (
     init_db, add_company, add_machinery, create_rental, 
@@ -12,11 +16,16 @@ from src.services.cleaner import DataCleaner
 
 logger = logging.getLogger("NexusAPI")
 
+limiter = Limiter(key_func=get_remote_address)
+
 app = FastAPI(
     title="Nexus Fleet Integration API",
     description="Capa intermedia experta de ingesta y limpieza de datos (ETL) para equipos pesados JCB, clientes y sus contratos de alquiler.",
     version="1.1.0",
 )
+
+app.state.limiter = limiter
+app.add_exception_handler(RateLimitExceeded, _rate_limit_exceeded_handler)
 
 @app.on_event("startup")
 def on_startup():
@@ -29,7 +38,8 @@ class SyncPayload(BaseModel):
     rentals: List[Dict[str, Any]] = []
 
 @app.post("/api/sync", tags=["Sincronización (ETL)"], summary="Ingestar y Limpiar Datos")
-def sync_machinery_data(payload: SyncPayload):
+@limiter.limit("10/second")
+def sync_machinery_data(request: Request, payload: SyncPayload):
     """
     Recibe un JSON sucio (listado crudo de maquinaria, empresas o alquileres),
     lo somete a las rutinas de DataCleaner para validaciones estrictas tipo ETL,
@@ -88,7 +98,8 @@ def sync_machinery_data(payload: SyncPayload):
     }
 
 @app.get("/api/machinery", tags=["Flota de Maquinaria"], summary="Obtener el catálogo de Maquinaria")
-def get_machinery(status: Optional[str] = Query(None, description="Filtra la maquinaria por estado, ej: 'disponible', 'taller', 'alquilado'")):
+@limiter.limit("10/second")
+def get_machinery(request: Request, status: Optional[str] = Query(None, description="Filtra la maquinaria por estado, ej: 'disponible', 'taller', 'alquilado'")):
     """
     Devuelve la flota completa registrada en la base de datos local. 
     Acepta un query parameter (status) para facilitar el filtrado.
@@ -100,7 +111,8 @@ def get_machinery(status: Optional[str] = Query(None, description="Filtra la maq
     return machinery
 
 @app.get("/api/machinery/{vin}", tags=["Flota de Maquinaria"], summary="Detalles de Máquina Específica")
-def get_machinery_details(vin: str):
+@limiter.limit("10/second")
+def get_machinery_details(request: Request, vin: str):
     """
     Recupera el perfil detallado de una máquina utilizando únicamente su VIN único.
     """
@@ -110,14 +122,16 @@ def get_machinery_details(vin: str):
     return machine
 
 @app.get("/api/companies", tags=["Empresas Clientes"], summary="Directorio de Clientes")
-def get_companies():
+@limiter.limit("10/second")
+def get_companies(request: Request):
     """
     Emite el listado de todos los clientes corporativos o empresas en la plataforma.
     """
     return get_all_companies()
 
 @app.get("/api/rentals/active", tags=["Operaciones"], summary="Obtener Alquileres Pendientes")
-def get_active_rentals_endpoint():
+@limiter.limit("10/second")
+def get_active_rentals_endpoint(request: Request):
     """
     Cruza y devuelve los alquileres que todavía no han reportado una fecha final o 'return_date'.
     La respuesta embebe a la entidad 'Company' y 'Machinery' gracias al ORM.
