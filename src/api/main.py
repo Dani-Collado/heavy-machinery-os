@@ -10,10 +10,10 @@ from src.database import (
 )
 from src.services.cleaner import DataCleaner
 
-logger = logging.getLogger("WalkiaAPI")
+logger = logging.getLogger("NexusAPI")
 
 app = FastAPI(
-    title="Walkia Fleet Integration API",
+    title="Nexus Fleet Integration API",
     description="Capa intermedia experta de ingesta y limpieza de datos (ETL) para equipos pesados JCB, clientes y sus contratos de alquiler.",
     version="1.1.0",
 )

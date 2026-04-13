@@ -1,4 +1,4 @@
-# Walkia MVP - Data Integration & Cleaning
+# Nexus MVP - Data Integration & Cleaning
 
 Un Mínimo Producto Viable diseñado para "poner orden" en los flujos de datos de maquinaria pesada. Funciona como una capa intermedia que recibe datos sucios de fuentes externas, los valida, aplica reglas de negocio para limpiarlos y los persiste de manera relacional en un entorno seguro antes de ser procesados por un ERP o CRM.
 

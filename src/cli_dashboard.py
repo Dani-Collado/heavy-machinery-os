@@ -20,7 +20,7 @@ from src.database import (
 console = Console()
 
 def check_db():
-    if not os.path.exists("data/walkia_master.db"):
+    if not os.path.exists("data/nexus_master.db"):
         console.print("[yellow]Advertencia: Base de datos no encontrada. Inicializando una nueva...[/yellow]")
         try:
             init_db()
@@ -180,7 +180,7 @@ def main():
     
     while True:
         console.print("\n[bold cyan]===================================[/bold cyan]")
-        console.print("[bold cyan]       WALKIA MVP DASHBOARD        [/bold cyan]")
+        console.print("[bold cyan]       NEXUS MVP DASHBOARD         [/bold cyan]")
         console.print("[bold cyan]===================================[/bold cyan]")
         console.print("[1] Consultar Flota")
         console.print("[2] Buscar Máquina por VIN")

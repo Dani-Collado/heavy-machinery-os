@@ -337,6 +337,41 @@ wheels = [
 ]
 
 [[package]]
+name = "nexus-mvp"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "diagrams" },
+    { name = "fastapi" },
+    { name = "rich" },
+    { name = "sqlmodel" },
+    { name = "tabulate" },
+    { name = "uvicorn" },
+]
+
+[package.dev-dependencies]
+dev = [
+    { name = "httpx" },
+    { name = "pytest" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "diagrams", specifier = ">=0.25.1" },
+    { name = "fastapi", specifier = ">=0.135.3" },
+    { name = "rich", specifier = ">=15.0.0" },
+    { name = "sqlmodel", specifier = ">=0.0.38" },
+    { name = "tabulate", specifier = ">=0.10.0" },
+    { name = "uvicorn", specifier = ">=0.44.0" },
+]
+
+[package.metadata.requires-dev]
+dev = [
+    { name = "httpx", specifier = ">=0.28.1" },
+    { name = "pytest", specifier = ">=9.0.3" },
+]
+
+[[package]]
 name = "nodeenv"
 version = "1.10.0"
 source = { registry = "https://pypi.org/simple" }
@@ -704,39 +739,4 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/97/c5/aff062c66b42e2183201a7ace10c6b2e959a9a16525c8e8ca8e59410d27a/virtualenv-21.2.1.tar.gz", hash = "sha256:b66ffe81301766c0d5e2208fc3576652c59d44e7b731fc5f5ed701c9b537fa78", size = 5844770, upload-time = "2026-04-09T18:47:11.482Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/20/0e/f083a76cb590e60dff3868779558eefefb8dfb7c9ed020babc7aa014ccbf/virtualenv-21.2.1-py3-none-any.whl", hash = "sha256:bd16b49c53562b28cf1a3ad2f36edb805ad71301dee70ddc449e5c88a9f919a2", size = 5828326, upload-time = "2026-04-09T18:47:09.331Z" },
-]
-
-[[package]]
-name = "walkia-mvp"
-version = "0.1.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "diagrams" },
-    { name = "fastapi" },
-    { name = "rich" },
-    { name = "sqlmodel" },
-    { name = "tabulate" },
-    { name = "uvicorn" },
-]
-
-[package.dev-dependencies]
-dev = [
-    { name = "httpx" },
-    { name = "pytest" },
-]
-
-[package.metadata]
-requires-dist = [
-    { name = "diagrams", specifier = ">=0.25.1" },
-    { name = "fastapi", specifier = ">=0.135.3" },
-    { name = "rich", specifier = ">=15.0.0" },
-    { name = "sqlmodel", specifier = ">=0.0.38" },
-    { name = "tabulate", specifier = ">=0.10.0" },
-    { name = "uvicorn", specifier = ">=0.44.0" },
-]
-
-[package.metadata.requires-dev]
-dev = [
-    { name = "httpx", specifier = ">=0.28.1" },
-    { name = "pytest", specifier = ">=9.0.3" },
 ]

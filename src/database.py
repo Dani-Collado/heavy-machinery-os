@@ -6,7 +6,7 @@ from sqlmodel import SQLModel, create_engine, Session, select
 
 from .models.domain import Company, Machinery, Rental
 
-DATABASE_URL = "sqlite:///data/walkia_master.db"
+DATABASE_URL = "sqlite:///data/nexus_master.db"
 # ensure data folder exists
 os.makedirs("data", exist_ok=True)
 

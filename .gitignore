@@ -11,3 +11,6 @@ wheels/
 
 # Scripts
 scripts/generate_raw_data.py
+
+#Data
+data/*.db
