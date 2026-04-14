@@ -10,7 +10,7 @@ wheels/
 .venv
 
 # Scripts
-scripts/generate_raw_data.py
+# scripts/generate_raw_data.py
 
 #Data
 data/*.db
